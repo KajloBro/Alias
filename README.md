@@ -6,4 +6,4 @@ teams.java 	CRUD reimplement
 play.java 	divide to fragments
 play.xml 	fragments
 assets 		hr encoding
-
+bugs		timer.stop() on quit, Media player bug
