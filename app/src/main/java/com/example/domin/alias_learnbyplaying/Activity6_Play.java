@@ -183,6 +183,7 @@ public class Activity6_Play extends AppCompatActivity {
         final AlertDialog.Builder builder = new AlertDialog.Builder(Activity6_Play.this, AlertDialog.THEME_HOLO_LIGHT);
         final MediaPlayer drama = MediaPlayer.create(this, R.raw.drama);
         final MediaPlayer end = MediaPlayer.create(this, R.raw.end);
+        final MediaPlayer shotgun = MediaPlayer.create(this, R.raw.shotgun);
         builder.setTitle("Get Ready: " + getTeam(attempt, Teams));
         builder.setMessage("Reader: " + getReader(attempt, Teams) + "\nListener: " + getListener(attempt, Teams));
         builder.setNeutralButton("START", new DialogInterface.OnClickListener() {
@@ -203,6 +204,8 @@ public class Activity6_Play extends AppCompatActivity {
                         SeeTerms();
                     }
                 };
+                shotgun.start();
+                in_a_row = 0;
                 timer.start();
                 dialogInterface.cancel();
             }
@@ -256,8 +259,6 @@ public class Activity6_Play extends AppCompatActivity {
         highscore.setCancelable(false);
         highscore.setCanceledOnTouchOutside(false);
         highscore.show();
-        my_chronometer = (TextView)findViewById(R.id.textView_chronometer);
-        my_chronometer.setText("");
     }
 
     public void SeeTerms() {
@@ -278,6 +279,8 @@ public class Activity6_Play extends AppCompatActivity {
         final AlertDialog seeTerms = builder.create();
         seeTerms.setCanceledOnTouchOutside(false);
         seeTerms.setCancelable(false);
+        my_chronometer = (TextView)findViewById(R.id.textView_chronometer);
+        my_chronometer.setText("");
         seeTerms.show();
     }
 

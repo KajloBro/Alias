@@ -1,6 +1,7 @@
 package com.example.domin.alias_learnbyplaying;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -75,10 +76,12 @@ public class Activity3_Options extends AppCompatActivity {
         button_set = (Button) findViewById(R.id.button_set);
         textView_chrono = (TextView) findViewById(R.id.textView_chronometer);
         textView_goal_result = (TextView) findViewById(R.id.textView_goal_result);
+        final MediaPlayer click = MediaPlayer.create(this, R.raw.ok);
         button_set.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        click.start();
                         goal_result = Integer.parseInt(textView_goal_result.getText().toString());
                         chronometer = Integer.parseInt(textView_chrono.getText().toString());
                         Intent intent = new Intent(Activity3_Options.this, Activity4_Corpus.class);

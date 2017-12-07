@@ -2,6 +2,7 @@ package com.example.domin.alias_learnbyplaying;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -69,6 +70,7 @@ public class Activity5_Teams extends AppCompatActivity {
     public void addListenerOnButtonSign(){
         final TextView[] textViews = {textView1, textView2, textView3, textView4, textView5, textView6};
         final Button[] Buttons = {button_edit1, button_edit2, button_edit3, button_edit4, button_edit5, button_edit6};
+        final MediaPlayer click = MediaPlayer.create(this, R.raw.ok);
         button_sign.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -80,6 +82,7 @@ public class Activity5_Teams extends AppCompatActivity {
                             Toast.makeText(Activity5_Teams.this, "Uhmmm, info missing...", Toast.LENGTH_SHORT).show();
                         }
                         else {
+                            click.start();
                             textViews[attempt].setText(tmp_team);
                             Buttons[attempt].setVisibility(View.VISIBLE);
                             attempt++;
@@ -101,10 +104,12 @@ public class Activity5_Teams extends AppCompatActivity {
     }
 
     public void edit(final Button button, final TextView textView, final int attempt){
+        final MediaPlayer click = MediaPlayer.create(this, R.raw.ok);
         button.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        click.start();
                         editTextTeam.setText(Teams.get(attempt).getName());
                         editTextPlayer1.setText(Teams.get(attempt).getPlayer1());
                         editTextPlayer2.setText(Teams.get(attempt).getPlayer2());
@@ -113,6 +118,7 @@ public class Activity5_Teams extends AppCompatActivity {
                                 new View.OnClickListener() {
                                     @Override
                                     public void onClick(View view) {
+                                        click.start();
                                         tmp_team = editTextTeam.getText().toString();
                                         tmp_player1 = editTextPlayer1.getText().toString();
                                         tmp_player2 = editTextPlayer2.getText().toString();
@@ -143,10 +149,12 @@ public class Activity5_Teams extends AppCompatActivity {
 
     public void addListenerOnButtonPlay(){
         Collections.shuffle(Teams);
+        final MediaPlayer click = MediaPlayer.create(this, R.raw.ok);
         button_play.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        click.start();
                         Intent intent = new Intent(Activity5_Teams.this, Activity6_Play.class);
                         intent.putExtra("GOAL", goal_result);
                         intent.putExtra("CHRONO", chronometer);

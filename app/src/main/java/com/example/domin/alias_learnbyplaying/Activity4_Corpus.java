@@ -3,6 +3,7 @@ package com.example.domin.alias_learnbyplaying;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
@@ -53,10 +54,12 @@ public class Activity4_Corpus extends AppCompatActivity {
 
     public void addListenerOnButtonSelectCorpus() {
         button_select_corpus = (Button) findViewById(R.id.button_select_corpus);
+        final MediaPlayer click = MediaPlayer.create(this, R.raw.ok);
         button_select_corpus.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        click.start();
                         String corpus_string = spinner.getSelectedItem().toString();
                         try {
                             BufferedReader reader = new BufferedReader(new InputStreamReader(getAssets().open(corpus_string)));
@@ -81,10 +84,12 @@ public class Activity4_Corpus extends AppCompatActivity {
     public void addListenerOnButtonCreateNew() {
         button_create_new = (Button) findViewById(R.id.button_create_new);
         final int READ_REQ = 24;
+        final MediaPlayer click = MediaPlayer.create(this, R.raw.ok);
         button_create_new.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        click.start();
                         Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
                         intent.addCategory(Intent.CATEGORY_OPENABLE);
                         intent.setType("text/*");
