@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Alias</string>
+    <string name="button_play_name">New game</string>
+    <string name="button_info">How to play</string>
+    <string name="button_set">Set</string>
+    <string name="button_select_corpus">Select</string>
+    <string name="button_sign_team">Sign team</string>
+    <string name="button_play">Play</string>
+    <string name="button_create_new">Read your corpus</string>
+    <string name="button_edit">edit</string>
+    <string name="button_apply">Apply Changes</string>
+    <string name="button_start">Start</string>
+    <string name="button_correct">CORRECT</string>
+    <string name="button_wrong">WRONG</string>
+    <string name="button_seeTerms">Proceed</string>
+    <string name="button_proceed">Proceed</string>
+    <string name="button_internal">Internal Storage</string>
+    <string name="beta">\nCopyright © 2017 by Dominik Barjaktaric</string>
+    <string name="main_title">ALIAS  \nlearn by playing  \nplay by learning</string>
+    <string name="options_title">Options</string>
+    <string name="goal_result_title">Goal result</string>
+    <string name="chronometer_title">Chronometer</string>
+    <string name="info_title">Instructions</string>
+    <string name="highscore_title">Highscore</string>
+    <string name="seeTerms_title">Progress</string>đ
+    <string name="winner"></string>
+    <string name="winner_text1">Congratulations</string>
+    <string name="winner_text2">you the real MVP</string>
+    <string name="initial_value_goal_result">50</string>
+    <string name="initial_value_chrono">60</string>
+    <string name="title_activity_create_teams">CreateTeamsActivity</string>
+    <string name="team">Team</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="choose_corpus">Choose corpus</string>
+    <string name="reader">Reader:</string>
+    <string name="listener">Listener:</string>
+    <string name="score">0</string>
+    <string name="score_txt">SCORE:</string>
+    <string name="team2">Team:</string>
+    <string name="get_ready">Get ready !!</string>
+    <string name="info">Number of players: 4+\n\nAlias is a word
+        game that you play in turns.\n\nIn Alias you have to say
+        a term in other words, using synonyms, opposites or clues
+        so that your team mate guess as many words as possible.\n\n
+        Before the beginning you can customize length of the turn
+        and goal result .\n\nYou collect 1 point each time your team
+        mate answers a term correctly and lose 1 point when you
+        decide to give up and move on the next term.\n\nPlayers must
+        not use any part of the term, a derivate of it nor
+        gestures(if you do so you are forced to press Wrong
+        Button).\n\nThe team who reaches a goal result first is
+        the winner.</string>
+    <string name="info_read">1) Write your own corpus (recommended to do
+        so on PC\'s notepad)\n\n2) Every term has to go in new
+        line\n\n3) Do not make empty lines in the beginning, middle nor
+        in the end of the file\n\n4) Name your file "corpus.txt"\n\n5) Open
+        your sd card directory/corpus and place your file there\n\n6) Press
+        Proceed Button\n\nTip: Copy your course glossary to study with friends</string>
+</resources>
+
+
