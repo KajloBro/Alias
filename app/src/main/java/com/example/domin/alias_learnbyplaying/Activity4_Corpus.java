@@ -29,6 +29,7 @@ public class Activity4_Corpus extends AppCompatActivity {
     ArrayList<String> my_corpus = new ArrayList<>();
     String term = null;//var for adding terms to corpus
     int goal_result, chronometer;
+    MediaPlayer click;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,11 +55,15 @@ public class Activity4_Corpus extends AppCompatActivity {
 
     public void addListenerOnButtonSelectCorpus() {
         button_select_corpus = (Button) findViewById(R.id.button_select_corpus);
-        final MediaPlayer click = MediaPlayer.create(this, R.raw.ok);
         button_select_corpus.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        if (click != null) {
+                            click.stop();
+                            click.release();
+                        }
+                        click = MediaPlayer.create(Activity4_Corpus.this, R.raw.ok);
                         click.start();
                         String corpus_string = spinner.getSelectedItem().toString();
                         try {
@@ -84,11 +89,15 @@ public class Activity4_Corpus extends AppCompatActivity {
     public void addListenerOnButtonCreateNew() {
         button_create_new = (Button) findViewById(R.id.button_create_new);
         final int READ_REQ = 24;
-        final MediaPlayer click = MediaPlayer.create(this, R.raw.ok);
         button_create_new.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        if (click != null) {
+                            click.stop();
+                            click.release();
+                        }
+                        click = MediaPlayer.create(Activity4_Corpus.this, R.raw.ok);
                         click.start();
                         Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
                         intent.addCategory(Intent.CATEGORY_OPENABLE);

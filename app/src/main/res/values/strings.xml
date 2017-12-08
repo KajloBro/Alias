@@ -43,7 +43,6 @@
     <!-- teams -->
     <string name="button_play">Play</string>
     <string name="button_sign_team">Sign team</string>
-    <string name="button_edit">Edit</string>
     <string name="button_apply">Apply</string>
     <string name="team">Team</string>
     <string name="player1">Player 1</string>

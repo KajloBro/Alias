@@ -15,6 +15,7 @@ public class Activity3_Options extends AppCompatActivity {
     private TextView textView_chrono, textView_goal_result;
     private SeekBar seekbar_goal, seekbar_chrono;
     int goal_result, chronometer;
+    MediaPlayer click;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,11 +77,15 @@ public class Activity3_Options extends AppCompatActivity {
         button_set = (Button) findViewById(R.id.button_set);
         textView_chrono = (TextView) findViewById(R.id.textView_chronometer);
         textView_goal_result = (TextView) findViewById(R.id.textView_goal_result);
-        final MediaPlayer click = MediaPlayer.create(this, R.raw.ok);
         button_set.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        if (click != null){
+                            click.stop();
+                            click.release();
+                        }
+                        MediaPlayer click = MediaPlayer.create(Activity3_Options.this, R.raw.ok);
                         click.start();
                         goal_result = Integer.parseInt(textView_goal_result.getText().toString());
                         chronometer = Integer.parseInt(textView_chrono.getText().toString());
