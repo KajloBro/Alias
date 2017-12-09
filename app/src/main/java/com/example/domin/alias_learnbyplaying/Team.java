@@ -40,5 +40,4 @@ public class Team implements java.io.Serializable {
         this.player2 = player2;
         this.score = 0;
     }
-    
 }

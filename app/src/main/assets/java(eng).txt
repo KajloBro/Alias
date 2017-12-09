@@ -11,7 +11,7 @@ checked exception
 class
 constructor
 continue
-declaration versus assignment
+declaration
 default
 definition
 do
@@ -28,7 +28,7 @@ if
 implements
 import
 inheritance
-instance of
+instance
 instance variable
 int
 interface
@@ -38,7 +38,7 @@ new
 object
 OOP
 package
-parameter (formal parameter)
+parameter
 polymorphism
 primitive
 public

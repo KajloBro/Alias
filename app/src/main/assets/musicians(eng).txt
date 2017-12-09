@@ -58,7 +58,7 @@ LCD Soundsystem
 Sly and the Family Stone
 Daft Punk
 Sonic Youth
-Björk
+Bjork
 Roxy Music
 Joni Mitchell
 The Band
@@ -124,7 +124,7 @@ The Chemical Brothers
 Pearl Jam
 Captain Beefheart and His Magic Band
 The National
-Hüsker Dü
+Husker Du
 The Jesus and Mary Chain
 Run-D.M.C.
 Eagles
@@ -175,7 +175,7 @@ De La Soul
 Jefferson Airplane
 TV on the Radio
 Manic Street Preachers
-Sigur Rós
+Sigur Ros
 Frank Ocean
 Jeff Buckley
 The Prodigy
@@ -183,7 +183,7 @@ Love
 Dusty Springfield
 Echo and the Bunnymen
 Wire
-Beyoncé
+Beyonce
 Suede
 Gorillaz
 The Knife
@@ -255,7 +255,7 @@ Eric Clapton
 Dire Straits
 Sleater-Kinney
 Janet Jackson
-Motörhead
+Motorhead
 Gram Parsons
 Dinosaur Jr.
 The Fall
@@ -284,7 +284,7 @@ Genesis
 Dizzee Rascal
 Basement Jaxx
 The Human League
-Sinéad O'Connor
+Sinead O'Connor
 Traffic
 Billy Bragg
 Tricky
@@ -296,7 +296,7 @@ New York Dolls
 Jane's Addiction
 Joanna Newsom
 LL Cool J
-Janelle Monáe
+Janelle Monae
 The Animals
 Drake
 Fiona Apple
@@ -427,7 +427,7 @@ The Shirelles
 The Horrors
 Kylie Minogue
 James Taylor
-Blue Öyster Cult
+Blue oyster Cult
 Glenn Miller
 Magazine
 Dizzy Gillespie
@@ -438,7 +438,7 @@ Harry Nilsson
 Bloc Party
 Garbage
 Bob Seger
-João Gilberto
+Joao Gilberto
 Yardbirds
 Bill Haley and His Comets
 The Orb
@@ -546,7 +546,7 @@ Steve Miller Band
 Electric Light Orchestra
 Slint
 Steppenwolf
-Röyksopp
+Royksopp
 Faust
 Bobby Bland
 Graham Parker
@@ -667,7 +667,7 @@ Caetano Veloso
 Ash
 Les Rita Mitsouko
 Blood, Sweat & Tears
-Antônio Carlos Jobim
+Antonio Carlos Jobim
 Percy Sledge
 The Saints
 Adam and The Ants
@@ -702,7 +702,7 @@ Rickie Lee Jones
 Nancy Sinatra
 Mazzy Star
 The Hives
- Cent
+50 Cent
 Syd Barrett
 Suzanne Vega
 John Mayall
@@ -721,7 +721,6 @@ Placebo
 Savages
 Hawkwind
 Sugar
-cc
 Derrick May
 Of Montreal
 Ride
@@ -735,7 +734,7 @@ Donald Fagen
 Buena Vista Social Club
 The Shadows
 Quicksilver Messenger Service
-Noir Désir
+Noir Desir
 The Pop Group
 Lorde
 The Orioles
@@ -762,7 +761,7 @@ Usher
 The Weeknd
 The Modern Jazz Quartet
 Throbbing Gristle
-King Sunny Adé
+King Sunny Ade
 Gladys Knight and The Pips
 Oliver Nelson
 Slade
@@ -844,7 +843,7 @@ No Doubt
 The Antlers
 The House of Love
 Sade
-Einstürzende Neubauten
+Einsturzende Neubauten
 En Vogue
 Fred Neil
 Michel Polnareff
@@ -887,7 +886,7 @@ Chet Baker
 Sparklehorse
 Tommy James and The Shondells
 Tom Tom Club
-Rubén Blades
+Ruben Blades
 T.I.
 Chubby Checker
 Mac DeMarco
@@ -915,7 +914,7 @@ Cameo
 Freda Payne
 Cabaret Voltaire
 Mekons
-Ali Farka Touré
+Ali Farka Toure
 Joan Jett and The Blackhearts
 Stray Cats
 Joan Baez
@@ -967,12 +966,12 @@ N.E.R.D.
 Stephen Stills
 Fine Young Cannibals
 Marty Robbins
-The Wrens (II)
+The Wrens
 Phil Ochs
 Ricardo Villalobos
 Roy Acuff
 LaVern Baker
-L
+Big L
 David Crosby
 Moloko
 Bangles

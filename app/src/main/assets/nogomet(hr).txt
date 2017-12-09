@@ -102,11 +102,11 @@ Real Madrid
 Barcelona
 Manchester City
 Paris Saint Germain
-Bayern München
+Bayern Munchen
 Juventus
 Tottenham Hotspur
 SSC Napoli
-Atlético Madrid
+Atletico Madrid
 Chelsea
 Roma
 Manchester United
@@ -128,7 +128,7 @@ Ajax
 Besiktas
 Boca Juniors
 Celtic
-Bo Mönchengladbach
+Bo Moenchengladbach
 Bo Dortmund
 Benfica
 Schalke 04
@@ -152,7 +152,7 @@ Independiente
 Athletic Bilbao
 San Lorenzo
 Olympiakos
-Grêmio
+Gremio
 Palmeiras
 The New Saints
 Santos FC
@@ -169,7 +169,7 @@ APOEL Nicosia
 Esperance de Tunis
 Nomme JK Kalju
 Spartak Moskva
-Fenerbahçe
+Fenerbahche
 Celta Vigo
 Espanyol
 Feyenoord
@@ -189,11 +189,11 @@ Watford
 Emelec
 Kashima Antlers
 Flamengo
-Atlético Mineiro
+Atletico Mineiro
 Wolfsburg
 Auckland City FC
 BATE Borisov
-Atlético Nacional
+Atletico Nacional
 SD Eibar
 Getafe
 Rosenborg
