@@ -1,26 +1,26 @@
-juznoafricki mravojed
-racunaljka
-opatija
+južnoafrički mravojed
+računaljka
+Opatija
 trbuh
 sposobnost
-ponistenje
-u inozemstvu
+poništenje
+inozemstvo
 zlostavljanje
-ubrzivac
+ubrzivač
 akcelerator
 pristup
-nesreca
-smjestaj
-pratilac
+nesreća
+smještaj
+pratioc
 harmonika
-racun
-racunovoda
+račun
+računovođa
 kiselina
 priznanje
-akusticki
+akustički
 akustika
 akril
-cin
+čin
 akcijski
 aktivnost
 glumac
@@ -31,7 +31,7 @@ adapter
 ovisnost
 dodatak
 adresa
-podesavanje
+podešavanje
 uprava
 adrenalin
 odrasla osoba
@@ -40,14 +40,14 @@ napredovati
 napredak
 prednost
 oglas
-oglasavanje
+oglašavanje
 savjet
 afera
 utjecati
 posljedica
 poslijepodne
 losion poslije brijanja
-naknadni shok
+naknadni šok
 naknadna misao
 dob
 agencija
@@ -56,14 +56,14 @@ agent
 agresija
 resa
 sporazum
-pomoc
+pomoć
 zrak
-zracni jastuk
-zracne snage
+zračni jastuk
+zračne snage
 aviokompanija
-avionska poshta
+avionska pošta
 zrakoplov
-zracna luka
+zračna luka
 cepelin
 alarm
 albatros
@@ -94,19 +94,19 @@ analgezija
 analog
 analogija
 analiza
-analiticar
+analitičar
 anatomija
 anesteziologija
 bijes
-cvjetnjaca
+cvjetača
 kut
 bol
-zivotinja
+životinja
 anime
-glezanj
-kratka carapa
-godisnji
-kaput za vjetar
+gležanj
+kratka čarapa
+godišnji odmor
+vjetrovka
 odgovor
 mrav
 mravojed
@@ -116,37 +116,37 @@ Antonije
 antropologija
 rog
 anksioznost
-nesto
+nešto
 bilo kuda
 apartman
-oponasati
+oponašati
 aperitiv
-izvinjenje
+oprost
 aparat
-odjeca
+odjeća
 apel
 izgled
 dodatak
 pljesak
 jabuka
-uredaj
+uređaj
 primjena
 ugovoreni sastanak
 odobrenje
-pregaca
+pregača
 apsida
-vodonosnik
+vodonoša
 luk
 arheologija
 strijelac
 arhitekt
 arhitektura
-podrucje
+područje
 argument
 aritmetika
 ruka
 armadilo
-naoruzanje
+naoružanje
 fotelja
 ormar
 oklop
@@ -156,19 +156,19 @@ vojska
 dolazak
 strijela
 umjetnost
-articoka
-clanak
+artičoka
+članak
 majstor
 pepeo
 pepeljara
 u stranu
 pitati
-sparoga
+šparoga
 aspekt
 asfalt
 zadatak
-pomoci
-pomoc
+pomoći
+pomoć
 asistent
 suradnik
 asocijacija
@@ -180,59 +180,58 @@ astrolog
 astrologija
 astronomija
 atelje
-atleticar
+atletičar
 atletika
 atmosfera
 atom
 atrij
 vezanost
 napad
-pokusaj
-cuvar
-paznja
+pokušaj
+čuvar
+pažnja
 slabljenje
 potkrovlje
 stav
 pravnik
-privlacnost
+privlačnost
 publika
-gledaliste
+gledalište
 tetka
 autor
 autorizacija
 vlast
-autorizacija
 robot
 lavina
 avenija
-prosjecan
+prosječan
 dodijeliti
 svijest
 azimut
 dijete
 babun
-babuska
+babuška
 dijete
-leda
+leđa
 oslonac
 pozadina
 ruksak
 slanina
-loze
+loza
 jazavac
 zbunjenosti
 torba
-Pecivo
+pecivo
 prtljaga
 gajde
 jamstvo
 mamac
-peci
+peći
 pekar
 pekara
 baklava
 balalajka
-ravnoteza
+ravnoteža
 balkon
 lopta
 balet
@@ -242,14 +241,13 @@ bambus
 banana
 bend
 rubac
-naprtnjaca
+naprtnjača
 narukvica
-bend
 banka
 bankovna knjiga
 bankar
 bar
-rostilj
+roštilj
 berberin
 barbiturat
 dereglija
@@ -264,43 +262,43 @@ bejzbol
 podrum
 bazen
 osnova
-kosara
-kosarka
+košara
+košarka
 bas
 kolijevka
-fagot
-sismis
+homoseksualac
+šišmiš
 kupka
 kupac
 dimenzija
 rupica
 restoran
-mali camac
-vecera
-dinosaurus
+mali čamac
+večera
+dinosaur
 diploma
-sipka za mjerenje razine
+šipka
 smjer
 direktor
-prljavstina
+prljavština
 hendikep
-razoruzanje
+razoružanje
 katastrofa
 disciplina
 diskoteka
 razjedinjenost
 popust
-otkrice
+otkriće
 raskorak
 rasprava
 bolest
 bestjelesnost
-oslobodenje
+oslobođenje
 maskirati
-gadjenje
+gađenje
 jelo
-posude
-perilica suda
+posuđe
+perilica suđa
 disk
 prikaz
 zbrinjavatelj
@@ -309,60 +307,57 @@ distribucija
 distributer
 okrug
 divan
-ronilac
+ronioc
 podijeliti
-sestar
+šestar
 ronjenje
 podjela
-pristaniste
-lijecnik
+pristanište
+liječnik
 dokument
 srna
 pas
-psece saonice
-sviba
+saonice
+Svibanj
 lutka
 dolar
-dolman
 dupin
 domena
 magarac
 vrata
 kvaka
 dovratnik
-mali ribarski camac
-tocka
+ribarski čamac
+točka
 dvostruko
-dubliranje
+dupliranje
 sumnjati
 sumnja
 unazaditi
 u centru grada
-Nacrt
-opterecenje
+nacrt
+opterećenje
 zmaj
 vilin konjic
-Dragster
 odvod
 patak
 drama
 dramaturg
 crtati
 pokretni most
-crtac
+crtač
 crtanje
 san
 bagerista
 haljina
 komoda
 zavoj
-busilica
-pice
+bušilica
+piće
 voziti
-vozac
+vozač
 kolovoz
-voznja
-rominjati
+vožnja
 dromedar
 pad
 droga
@@ -370,9 +365,9 @@ bubanj
 bubnjar
 pijan
 suho
-susilica
+sušilica
 patka
-pace
+pače
 neuspjeh
 uslijed
 grubo sukno
@@ -385,25 +380,25 @@ traperice
 tamnica
 obostrani ispis
 prah
-Pjescana oluja
-ogrtac za zastitu od prasine
-duznost
+pjesčana oluja
+ogrtač
+dužnost
 patuljak
 stan
 dinamo
 orao
 uho
-naucnjaci
-cepic za uho
-nausnice
+naučnjaci
+čepić za uho
+naušnice
 Zemlja
 potres
-kisna glista
-olaksati
+kišna glista
+olaksšti
 stalak
-istocno
+istočno
 jesti
-prisluskivac
+prisluškivač
 e-knjiga
 zasjeniti
 ekliptika
@@ -411,9 +406,9 @@ ekonomija
 vrtlog
 rub
 urednik
-urednicki
+urednički
 obrazovanje
-Edvard Norton
+Edward Norton
 jegulja
 brisanje
 posljedica
@@ -422,10 +417,9 @@ efikasnost
 napor
 jaje
 intelektualac
-eggnog
-patlidzan
+patlidžan
 osam
-izbacivac
+izbacivač
 lakat
 izbor
 elektricitet
@@ -433,7 +427,6 @@ elektrokardiogram
 element
 slon
 lift
-eliksir
 los
 elipsa
 brijest
@@ -442,33 +435,33 @@ utiskivanje
 pojava
 hitan
 pojavni
-smirgl papir
+šmirgl papir
 emocija
 isticanje
 zaposliti
 zaposlenik
 poslodavac
-zaposljavanje
-osnazivanje
+zapošljavanje
+osnaživanje
 emu
-okruzenje
+okruženje
 enciklopedija
 kraj
 endotel
 neprijatelj
 energija
 motor
-inzenjer
-inzenjering
+inženjer
+inženjering
 zagonetka
-uzivanje
+uživanje
 pitanje
-Zabava
+zabava
 entuzijazam
 ulaz
 okolina
 zavist
-mac
+mač
 prolazna pojava
 epoha
 eponim
@@ -477,45 +470,45 @@ ravnodnevnica
 oprema
 ekvivalent
 doba
-e-citac
-greska
-pobjeci
+e-čitač
+greška
+pobjeći
 osmanluk
 esej
 osnivanje
 imanje
 procjena
 estrogen
-usce rijeke
+ušće rijeke
 ethernet
 etika
-Eurocentrizam
+eurocentrizam
 Europa
 procjenitelj
-vecer
-dogadaj
+večer
+događaj
 iseljenje
 dokaz
-budenje
+buđenje
 evolucija
 ispit
-ispitivac
+ispitivač
 primjer
 razmjena
-uzbudenje
+uzbuđenje
 uzvik
 izgovor
-izvrsitelj
-vjezba
-ispusni ventil
-bivsi muz
+izvršitelj
+vježba
+ispušni ventil
+bivši muž
 progonstvo
 postojanje
-Izlaz
+izlaz
 ekspanzija
 ekspanzionizam
 iskustvo
-strucnjak
+stručnjak
 obrazlozenje
 izlaganje
 izraz
@@ -523,24 +516,24 @@ nastavak
 opseg
 vanjski
 krajnost
-bivsa zena
+bivša zena
 oko
-ocna jabucica
+očna jabučica
 obrva
 obrve
-naocale
+naočale
 trepavica
 trepavice
-ocni kapak
+očni kapak
 kapci
-olovka za oci
+olovka za oči
 naprezanje oka
 lice
 facelifting
 aspekt
 postrojenja
 faksimil
-cinjenica
+činjenica
 faktor
 tvornica
 fakultet
@@ -560,13 +553,12 @@ kljova
 peder
 farma
 seljak
-tanak sloj vezivnog tkiva
 mast
 otac
 svekar
-tezak rad
+težak rad
 pipa
-greska
+greška
 lane
 faks
 strah
@@ -575,16 +567,16 @@ pero
 svojstvo
 Fedora
 pristojba
-stocna hrana
-Povratne informacije
+stočna hrana
+povratne informacije
 osjetiti
-osjecaj
+osjećaj
 noge
-zlocin
-zena
-mocvara
+zločin
+žena
+močvara
 ograda
-macevanje
+mačevanje
 bokobran
 trajekt
 gnojivo
@@ -604,14 +596,14 @@ datoteka
 ispuniti
 film
 prljavstina
-konacni
+konačni
 financije
-pronaci
+pronaći
 nalaz
 fino
 prst
 nokat na prstu
-Zavrsi
+završni
 jela
 vatra
 vatrogasac
@@ -623,86 +615,76 @@ ribar
 ribolov
 ribarstvo
 trgovac ribom
-riblja mreza
+riblja mreža
 popraviti
-ucvrscenje
+učvršćenje
 zastava
 plamen
-flanker
 bljesak
 ravan
 dereglija
 aroma
-lan
 mrlja
 runo
 meso
 let
-kremenjace
-Japanke
+kremenjače
+japanke
 stado
 poplava
 kat
-floozie
-brasno
-teci
+brašno
 cvijet
 gripa
-flugelhorn
 metilj
 flauta
 letjeti
-muvolovka
+muholovka
 pjena
 nasamariti
 fokus
 magla
 preklopiti
 mapa
-sljedeci
-fondi
+sljedeći
 krstionica
 hrana
 noga
 nogomet
 fusnota
 oslonac za noge
-hoklica
 prepad
 sila
 podlaktica
 prethodnik
 prognoza
-celo
-suma
-sumarstvo
+čelo
+šuma
+šumarstvo
 zauvijek
 krivotvorina
-viljuskar
+viljuškar
 oblik
 formalan
 format
-prijasnji
-tvrdava
-dve nedjelje
-tvrdava
+prijašnji
+tvrđava
+nedjelje
 bogatstvo
 forum
 temelj
 fontana
-kokos
+kokoš
 lisica
-zubaca
 miris
 okvir
-bratoubica
 prevarant
 dotrajalost
 pjega
 sloboda
 slobodna igra
 zamrznuti
-zamrzivac
+zamrzivač
 teretni
 teretnjak
 Freon
@@ -711,14 +693,14 @@ trenje
 hladnjak
 prijatelj
 prijateljstvo
-fregata
+regata
 resa
 bluza
 zaba
 ispred
 mraz
-namrstiti se
-voce
+namrštiti se
+voće
 frustracija
 gorivo
 ispunjenje
@@ -727,32 +709,31 @@ zabava
 funkcija
 prikupljanje sredstava
 pogreb
-smijesno
+smiješno
 krzno
-pec
-namjestaj
-futon
-buducnost
-starcic
+peć
+namještaj
+foton
+budućnost
+starčić
 dobit
 dokoljenice
-Oluja
-zucni mjehur
+oluja
+žučni mjehur
 galerija
 galija
 galon
-kaljace
 igra
-gamebird
-gama zracenja
-gusak
+gama
+zračenja
+guska
 praznina
-garaza
-odjeca
-smece
+garaža
+odjeća
+smeće
 vrt
-cesnjak
-odjeca
+češnjak
+odjeća
 podvezica
 plin
 benzin
@@ -761,15 +742,14 @@ vrata
 prolaz
 okupiti
 mjerilo
-siba
-gazebo
+šiba
 gazela
-zupcanik
-mjenjac
+zubčanik
+mjenjač
 guske
 ustrojen konj
 dragulj
-oriks antilopa
+antilopa
 rod
 gen
 general
@@ -777,40 +757,35 @@ genetika
 geografija
 geologija
 geometrija
-george
-zdravac
-skocimis
+George Bush
+zdravica
+skočimiš
 gejzir
-gherkin
 duh
 gigantski
 dar
 gigantizam
-ginseng
-zirafa
+žirafa
 pojas
 djevojka
-Git
 dati
 radostan
-gladiola
-zlijezda
+žlijezda
 staklo
-naocale
+naočale
 klisura
 jedrilica
-jedrilicarstvo
+jedriličarstvo
 rukavica
 rukavice
 ljepilo
 pretrpati
-ici
+ići
 cilj
-Jarac
-halapljivac
-bog
+jarac
+Bog
 kuma
-zastitne naocale
+zaštitne naočale
 go-kart
 zlato
 zlatna ribica
@@ -818,47 +793,46 @@ golf
 gondola
 gong
 dobro
-Dovidenja
+doviđenja
 guska
 glodar
 gorila
-gusce
-trac
+gušće
+trač
 vladavina
 vlada
 guverner
 haljina
 zgrabiti
 razred
-zitarica
+žitarica
 gram
 gramatika
-velicanstven
+veličanstven
 unuka
 deda
 baka
 unuk
-baka
-zrno grozda
+zrno grožđa
 grejp
 grafikon
-graficki
+grafički
 trava
 skakavac
-pasnjak
+pašnjak
 zahvalnost
 siva
 mast
-Sjajno
+sjajno
 pradjed
 prababa
-grcki
+grčki
 zelena
-staklenika
+staklenik
 granata
-siva
+šljiva
 tuga
-rostilj
+roštilj
 zahvat
 borbenost
 trgovine
@@ -867,30 +841,30 @@ skupina
 skarpina
 mumljati
 rast
-jamciti
-straza
-nagadati
+jamčiti
+straža
+nagađati
 gost
-Knjiga gostiju
-vodenje
-vodic
+knjiga gostiju
+vođenje
+vodič
 krivica
 kriv
 gitara
 gitarista
 guma
-gumene papuce
-puska
-zlijeb
+gumene papuče
+puška
+žlijeb
 momak
 gimnastika
-gimnasticar
+gimnastičar
 gimnastika
 ginekologija
-ziro
+žiro
 navika
 pila za metal
-tezak posao
+težak posao
 doviknuti
 dlaka
 sisanje
@@ -900,41 +874,37 @@ polusestra
 iverak
 dvorana
 hodnik
-hamaki
 hamburger
-cekic
-viseca mreza za lezanje
-hrcak
+čekić
+viseća mreža
+hrčak
 ruka
 rukomet
-drzanje za ruke
+držanje za ruke
 hendikep
 rukovati
-upravljac
-sluskinje
-rucna pila
+upravljač
+sluškinje
+ručna pila
 objesiti
-sreca
+sreća
 luka
-hardboard
 tvrdi povez
 kaljenje
-tvrdi sesir
+tvrdi šešir
 hardver
-steta
+šteta
 harmonika
 sklad
 harfa
-cembalo
-jastuce za klecanje
-sesir
-kutija za sesire
+jastuk
+kutija za šešire
 sjekirica
 mrziti
-mrsnja
-pohadati
-naprtnjaca
-Sokol
+mržnja
+pohađati
+naprtnjača
+sokol
 sijeno
 glava
 far
@@ -944,18 +914,17 @@ zdravlje
 sluh
 srce
 bol u srcu
-ognjiste
-srce lupati
-srz
+ognjište
+srce
+srž
 toplina
-grijac
+grijač
 raj
-tesko
-zivica
-jez
+teško
+živica
+jež
 potpetica
 visina
-nasljede
 Helena
 helikopter
 helij
@@ -964,18 +933,17 @@ ostrokonda
 zdravo
 kaciga
 zdravo
-Pomozite
+pomozite
 konoplja
 kokos
 biljka
-caplja
-haringa
-sesterokut
-zenit
+čaplja
+šesterokut
+ženiti
 sakriti
 visok
 vrhunac
-visokouzlazni
+visoko-uzlazni
 autocesta
 brdo
 kuk
@@ -984,76 +952,72 @@ nilski konj
 najam
 povijest
 pogoditi
-kocnica
-Hobiji
+kočnica
+bobiji
 Hobbit
 hobi
 hokej
 motika
 svinja
-drzati
+držati
 rupa
 odmor
-Dom
-domaca zadaca
-homogenat
+dom
+domaća zadaća
 homonim
-postenje
+poštenje
 med
-pcela radilica
-kapuljaca
+pčela radilica
+kapuljača
 kopito
 kuka
 nada
 hmelj
 rog
-strsljen
-uzas
+stršljen
+užas
 konj
 crijevo
-carape
-dom za nemocne
+čarape
+dom za nemoćne
 bolnica
 gostoljubivost
-domacin
+domaćin
 hostel
-domacica
-vruce
+domaćica
+vruće
 hot-dog
 hotel
 sat
-pjescani sat
-kuca
-kucica na splavu
-kucni poslovi
-kuciste
-cumez
-letjelica na zracnom jastuku
+pješčani sat
+kuća
+kućica na splavu
+kućni poslovi
+kućište
+letjelica
 haubica
-srediste
-radkapna
-hugger
+središte
 ljudski
-vlaznost
+vlažnost
 humor
 glad
 lov
 prepona
 uragan
-zuriti
+žuriti
 povrijediti
 suprug
 koliba
 sanduk
 zumbul
 hibridizacija
-Hidrant
+hidrant
 hidraulika
-krilo hidrodinamickog oblika
+krilo
 vodik
 hijena
 higijenski
-pisanje sa crticom
+pisanje
 hipohondrija
 hipotermija
 led
@@ -1064,20 +1028,20 @@ ikona
 ideja
 idealan
 ako
-iglo
+iglu
 nezakonit
 slika
 Malta
 udarac
 implementirati
-vaznost
+važnost
 impresionirati
 utisak
 zatvor
-poboljsanje
+poboljšanje
 bezobrazluk
 impuls
-Spremnik
+spremnik
 usijanost
 palac
 incident
@@ -1087,24 +1051,24 @@ nezavisnost
 samostalan
 indeks
 naznaka
-siromastvo
+siromaštvo
 pojedinac
 industrija
-neizbjezan
+neizbježan
 rano djetinjstvo
 upala
 inflacija
 utjecaj
 informacija
 infuzija
-ognjisno mjesto
+ognjišno mjesto
 nezahvalnik
-pocetni
+početni
 inicijativa
 ozljeda
 nepravda
 tinta
-u zakonima
+zakoni
 umetak
 gostionica
 inervacija
@@ -1135,23 +1099,23 @@ interferometar
 unutrasnjost
 uljez
 interni
-medunarodna
-Internet
+međunarodna
+internet
 tumac
 intervju
 anketar
 crijevo
 iznutrice
-Uvod
+uvod
 izum
 izumitelj
 inventar
 ulaganje
 pozvati
 dostavnica
-prelijevanje u duginim bojama
-iris
-zeljezo
+prelijevanje
+Iris
+željezo
 oklopljen
 ironija
 otok
@@ -1162,64 +1126,60 @@ jakna
 jaguar
 zatvor
 pekmez
-James
+James Bond
 staklenka
 jasmin
-celjust
+čeljust
 ljubomora
 traperice
-dzip
-Jeff
-zele
+džip
+žele
 meduza
 mlaz
 dragulj
 nakit
 tren
 posao
-dzokej
+džokej
 Joey
-trcanje
-pridruziti
-zajednicki
+trčanje
+pridružiti
+zajednički
 vic
 jota
 putovanje
 radost
 suditi
 osuda
-dzudo
+džudo
 neodoljiva sila
 sok
 ogroman
 skok
-dzemper
+džemper
 mladi
 starudija
-junker
+bunker
 izlet
 porota
 pravda
-juta
+jutra
 kelj
 kamikaza
 klokan
 karate
-Karen
 kajak
-kazoo
-zadrzati
-kendo
-kec
-kecap
-cajnik
+zadržati
+as
+kečap
+čajnik
 bubanj
-kljuc
+ključ
 tastatura
 tipkanje
-glavno nacelo
+glavno načelo
 udarac
-poceti igru
+početi igru
 dijete
 bubreg
 bubrezi
@@ -1236,11 +1196,11 @@ kiosk
 poljubac
 kuhinja
 zmaj
-mace
-papirna maramica
+mač
+papirnata maramica
 klomps
 koljeno
-gacice
+gaćice
 noz
 ostrica noza
 vitez
@@ -1249,13 +1209,12 @@ cvor
 znanje
 zglob
 koala
-keleraba
 laboratorija
 radnik
 rad
-cipka
+čipka
 nedostatak
-Glaziranje
+glazura
 ljestve
 dama
 bubamara
@@ -1263,17 +1222,16 @@ jezero
 janjetina
 svjetiljka
 lan
-zemljiste
+zemljište
 nagazna mina
-pejzaz
-Jezik
+pejzaž
+jezik
 fenjer
 krug
-kucence
 laptop
 Pariz
 ostava
-seva
+ševa
 upala grla
 lazanje
 skrivenost
@@ -1281,39 +1239,37 @@ lateks
 tokarilica
 latte
 smijeh
-smijeh
 praonica
 lava
 zakon
 travnjak
 parnica
 odvjetnik
-poloziti
+položiti
 sloj
 voditi
 voda
 rukovodstvo
-vodeci
+vodeći
 list
 liga
 ucenje
 povodac
 koza
 napustiti
-odlazaka
+odlazak
 predavanje
 poriluk
 noga
 pravni
 tajce
 mahuna
-lei
 slobodno vrijeme
 limun
 limunada
 lemur
-duzina
-leca
+dužina
+leća
 guba
 lekcija
 pustiti
@@ -1321,18 +1277,18 @@ pismo
 zelena salata
 nivo
 poluga
-moc
+moć
 licenca
-laz
-lazljivac
-zivot
+laž
+lažljivac
+život
 lift
 svjetlo
 rasvjeta
 munja
 lila
 ljiljan
-ograniciti
+ograničiti
 limuzina
 crta
 posteljina
@@ -1342,30 +1298,29 @@ veza
 laneno sjeme
 lav
 usna
-ruz
-tekuci
+ruž
+tekući
 alkoholno pice
-Lisa
+Mona Lisa
 popis
-slusati
-knjizevnost
+slušati
+književnost
 parnica
 nosila
 jetra
 stoka
-zivot
-guster
+život
+gušter
 lama
 opterecenje
-vekna
-besposlicar
+besposličar
 zajam
 lobotomija
 jastog
 lokalne
 mjesto
-zakljucati
-ormaric
+zaključati
+ormarić
 medaljon
 lokomotiva
 skakavac
@@ -1373,7 +1328,6 @@ potkrovlje
 klada
 loda
 logika
-parce tkanine oko kukova
 usamljenost
 dugo
 izgled
@@ -1385,65 +1339,63 @@ glupan
 ljubav
 nizak
 odanost
-sreca
+sreća
 prtljaga
 klade
-drvosjeca
-rucak
+drvosječa
+ručak
 snek-bar
-pluca
+pluća
 udarati
-lutnja
-likra
-juzina
+ljutnja
+lirika
+južina
 limfocita
 ris
 lira
 lirski
 makadamija
 makaroni
-masina
+mašina
 strojevi
-makrame
 makrofauna
 vrtlog
 maestro
-casopis
+časopis
 magija
-sluskinja
+sluškinja
 djevojka
-posta
-postanski sanducic
-postar
+pošta
+poštanski sandučić
+poštar
 glavni
-odrzavanje
+održavanje
 glavni
 napraviti
-sminka
-muski
-trgovacki centar
+šminka
+muški
+trgovački centar
 malj
 mambo
-Mamut
-covjek
+mamut
+čovjek
 upravljanje
-menadzer
+menadžer
 mandarinski
 mandolina
 mangrov
 potjera
 manijak
 manikura
-covjecanstvo
-drzanje
-plemicko imanje
-mansarda
-licni sluga
+čovječanstvo
+držanje
+plemičko imanje
+osobni sluga
 rezidencija
-kameni ili drveni okvir kamina
-plast
+kameni okvir kamina
+plašt
 mantua
-proizvodac
+proizvođač
 mnogi
 karta
 javor
@@ -1451,52 +1403,49 @@ mramor
 kobila
 margina
 Mariachi
-marimba
 ocjena
-trziste
-Marketing
+tržište
+marketing
 strijelac
 brak
-mocvara
-siprag
+močvara
+šiprag
 marksizam
 maskara
 maska
 masa
-masaza
+masaža
 ovladati
 majstorski
-zvakanje
-mastoidnog nastavka
-otirac
+žvakanje
+nastavak
+otirač
 utakmica
 pariti
 materijal
-matematika
 matematika
 stvar
 pijuk
 madrac
 maksimum
-moze biti
+može biti
 majoneza
-gradonacelnik
+gradonačelnik
 obrok
-znacenje
+značenje
 ospice
 mjera
 mjerenje
 meso
-mehanicar
+mehaničar
 media
 lijek
 srednji
 sastati
 sastanak
-megaliac
 melodija
-clan
-clanstvo
+član
+članstvo
 memorija
 muskarci
 menora
@@ -1511,29 +1460,27 @@ meteor
 meteorologija
 metar
 metan
-nacin
+način
 metodologija
 metro
 metronom
 polukat
 misevi
-microlending
 mikrovalna pecnica
-Sredinom naravno
+sredinom
 srednji
 posrednik
-midi
-sredisnji
-ponoc
+središnji
+ponoć
 primalja
-moc
+moć
 putnik
 milja
 mlijeko
 milkshake
 milenijum
 milimetar
-milisekundu
+milisekunda
 mimika
 mimoza
 um
@@ -1552,32 +1499,31 @@ ogledalo
 pobacaj
 nesporazum
 nepodoban
-mrznja prema zenama
-misplacement
-pogresno tumacenje
+mržnja prema ženama
+pogrešno tumačenje
 propustiti
 raketa
 misija
 zamagliti
-pogreska
+pogreška
 gospodin
 mitra
 rukavica s palcem
-mijesati
+miješati
 mikser
 smjesa
 rov
 mobilni
 mokasinke
 moka
-nacin
+način
 model
 modem
-madez
+madež
 mama
 trenutak
 samostan
-manastirski zivot
+manastirski život
 novac
 trgovac
 monitor
@@ -1585,33 +1531,33 @@ majmun
 monokl
 monoteizam
 monsun
-cudoviste
+čudoviste
 mjesec
-raspolozenje
+raspoloženje
 mjesec
-mjeseceva povrsina
-mjesecina
+mjesečeva površina
+mjesečina
 otrti
 jutro
 zalogaj
 hipoteka
-mortise
-dzamija
+mortište
+džamija
 komarac
-najvise
+najviše
 motel
 moljac
 majka
 punica
 pokret
 motor
-motorni camac
+motorni čamac
 automobil
 motorcikl
 nasip
 planina
-mis
-mus
+miš
+muk
 brkovi
 usta
 potez
@@ -1619,30 +1565,29 @@ pokretac
 film
 kosilica
 blato
-salica
-mukluk
+šalica
 mazga
 multimedijalni
-misic
+mišić
 muskulatura
 muzej
-glazba, muzika
+glazba
+muzika
 glazbena kutija
-glazbovanje
 brkovi
 senf
-dzukela
-mikoplazme
+pas
+mikroplazma
 n
-cavao
-Ime
+čaval
+ime
 imenovanje
-nanocestica
+nanočestica
 ubrus
 gadan
 narod
 nacionalna
-domaci
+domaći
 prirodni
 naturalizacija
 priroda
@@ -1654,15 +1599,15 @@ kravata
 potreba
 igla
 negativan
-Pregovaranje
+pregovaranje
 neologizam
 neon
-necak
-zivac
+nećak
+živac
 gnijezdo
 neto
 netbook
-mreza
+mreža
 neurobiologist
 neuropatolog
 vijesti
@@ -1670,40 +1615,39 @@ novine
 roto-papir
 kiosk
 veza
-istancanost
-niza
-necakinja
-noc
-nocni klub
+niža
+nećakinja
+noć
+noćni klub
 vecernja haljina
 slavuj
 nocno svijetlo
-dusik
+dušik
 nitko
-cvor
+čvor
 buka
 nevjernik
-nekonformisticki
-Cuvanje
+nekonformistički
+čuvanje
 besmislica
 tjestenina
 normalan
 staronordijski
 sjeverno
 nos
-Biljeska
+bilješka
 biljeznica
-nista
+ništa
 obavijest
 obavijestiti
-ocitost
+očitost
 nugat
 roman
 gurkati
 broj
-racunanja
-numericki
-numizmaticar
+računanja
+numerički
+numizmatičar
 medicinska sestra
 jaslice
 njegovanje
@@ -1713,34 +1657,32 @@ najlon
 hrast
 veslo
 oaza
-zobena kasa
-poslusnost
+zobena kaša
+poslušnost
 gojaznost
-vradzbina
+vradžbina
 objekt
 cilj
 obaveza
 oboja
-zapazanje
+zapažanje
 zvjezdarnica
 prilika
 okupacija
 ocean
-ocelot
 osmerokut
 oktava
-Octavo
 oktet
 hobotnica
-mjerac za predeni put
+mjerač za pređeni put
 opus
-prekrsaj
+prekršaj
 ponuda
 ured
-casnik
-sluzbeno
+časnik
+službeno
 ulje
-okra
+orka
 maslina
 omega
 omlet
@@ -1752,21 +1694,21 @@ otvor
 opera
 operacija
 oftalmolog
-misljenje
+mišljenje
 opijum
 oposum
 oportunista
 prilika
 suprotan
 opcija
-narancasta
+narančasta
 orangutan
 govornik
-vocnjak
+voćnjak
 orkestar
 orhideja
-narudzba
-obican
+narudžba
+običan
 ordinacija
 orgulje
 organizacija
@@ -1784,18 +1726,15 @@ opremiti
 dogradnja
 izdatak
 izlaz
-potpora za camac
+potpora za čamac
 polazak
 izvan
 ovalan
 jajnik
-pecnica
-preopterecenje
-overclocking
-ogrtac
-overexertion
+pećnica
+preopterećenje
+ogrtač
 preleta
-overnighter
 preletjeti
 sova
 vlasnik
@@ -1807,7 +1746,7 @@ kamenica
 tempo
 pejsmejker
 paket
-jastucic
+jastučić
 veslo
 ograda za konje
 stranica
@@ -1819,54 +1758,49 @@ slikar
 slika
 farbanje
 par
-pidzama
+pidžama
 dlan
 pamflet
 tava
-palacinka
-gusteraca
+palačinka
+gušterača
 panda
 panika
 sepet
-panova frula
-macuhica
-panter
-gacice
-pantologist
+frula
+pantolog
 ostava
-hlace
-pantsuit
-gacice
+hlače
 papir
 knjiga sa mekim koricama
 parabola
 padobran
 parada
 paralelogram
-bolnicar
+bolničar
 parcela
 pergament
 leopard
 roditelj
 zagrada
 park
-jakna sa kapuljacom
-parkiraliste
+jakna sa kapuljačom
+parkiralište
 papiga
 dio
-ucesnik
-cestica
+učesnik
+čestica
 posebno
 partner
 jarebica
-Zabava
+zabava
 proci
 prolaz
-stedna knjizica
+štedna knjižica
 putnik
 strast
 pasivno
-proslost
+prošlost
 tjestenina
 zalijepiti
 pastor
@@ -1877,31 +1811,30 @@ staza
 strpljenje
 pacijent
 patina
-otvoreno dvoriste
+otvoreno dvorište
 patrijarh
 Patricija
-bastina
+baština
 rodoljub
 patrola
 uzorak
 pauza
-plocnik
+pločnik
 paviljon
-sapa
+šapa
 zalagaonica
 platiti
 primalac
-placanje
-grasak
+plaćanje
+grašak
 mir
 breskva
 paun
 vrh
 kikiriki
-kruska
+kruška
 biser
 pedala
-peen
 viriti
 istorazinski
 pelikan
@@ -1918,29 +1851,24 @@ narod
 papar
 postotak
 percepcija
-smud
-izvodenje
+izvođenje
 parfem
 razdoblje
-casopis
+časopis
 periferni
-permafrosta
-dopustenje
+dopuštenje
 dozvola
-pocinitelj
+počinitelj
 osoba
 osobni
-osoba
 perspektiva
-stetocina
+štetočina
 ljubimac
 latica
 podsuknja
 crkvena klupa
 PH
 farmaceut
-farmakopeja
-faza
 fazan
 filozof
 filozofija
@@ -1948,91 +1876,87 @@ telefon
 foto
 fotograf
 fraza
-fizicka
+fizička
 fizika
 pijanista
 klavir
 pikolo
 odabrati
 kljucati
-kolac
+kolač
 kiseli krastavac
 slika
 pita
 komad
-pristaniste
-poboznost
+pristanište
+pobožnost
 svinja
-Golub
+golub
 stuka
 gomila
-hodocasce
+hodočašće
 kutija za pilule
 jastuk
 pilot
 svodnik
 bubuljica
 igla
-pregacicu
-cviker
+pregača
 bor
 ananas
-sisarka
-ping
-ruzicasta
+šišarka
+ružičasta
 mali prst
 tanka linija
 pinta
-sarac
+šarac
 pionir
 cijev
 piratstvo
 pisati
 nagib
 bacanje
-sustina
+suština
 pizza
 mjesto
-obican
+običan
 plan
 avion
 planeta
 biljka
-plantaza
+planktaža
 sadilica
 gips
 suh malter
 plastika
-ploca
+ploča
 platforma
 platina
 kljunar
 igra
-igrac
-igraliste
-soba za igru
+igrač
+igralište
+igraća soba
 zadovoljstvo
 naboran
 mnogo
-plier
-zemljiste
+zemljište
 plug
-zvizdaljka
+zviždaljka
 plug
-orac
+orač
 perjanica
 klip
-sperploca
-upala pluca
-dzep
-biljeznica
-dzepni sat
+šperploča
+upala pluća
+džep
+bilježnica
+džepni sat
 pjesma
 pjesnik
 poezija
-poignance
-tocka
-Otrov
+točka
+otrov
 trovanje
 pol
 palenta
@@ -2041,11 +1965,10 @@ policajac
 politika
 polirati
 politika
-zagadenje
+zagađenje
 polo
 poliester
-pompom
-ponco
+pončo
 jezero
 poni
 fuj
@@ -2053,38 +1976,37 @@ bazen
 pop
 kokice
 mak
-sladoled na stapicu
+sladoled na štapiću
 populacija
 populista
 trijem
 dikobraz
 luka
-nosac
-portfelj
+nosač
+portfoljo
 brodski prozor
-polozaj
+položaj
 pozitivan
 posjed
-mogucnost
-moguce
-posta
-postarina
-Postanski sanducic
+mogućnost
+moguće
+pošta
+poštarina
+poštanski sandučic
 poster
 lonac
 krumpir
 potencijal
 nota
-vrecica
+vrećica
 perad
 funta
-bombardovanje
-siromastvo
+bombardiranje
+siromaštvo
 puder
 vlast
 praksa
-presedan
-talozenje
+taloženje
 predgovor
 prednost
 uvod
@@ -2102,13 +2024,13 @@ pritisak
 tlaka
 cijena
 ponos
-svecenik
+svećenik
 osnovni
 primat
 princ
 princeza
 glavni
-nacelo
+načelo
 otisak
 printer
 prije
@@ -2116,13 +2038,13 @@ prioritet
 zatvor
 privatna
 nagrada
-profesionalna borba u boksu
+profesionalna borba
 probni rad
 problem
 postupak
 obrada
 proizvoditi
-proizvodac
+proizvođač
 proizvod
 proizvodnja
 profesija
@@ -2133,7 +2055,7 @@ dobit
 program
 napredak
 projekt
-obecanje
+obećanje
 promocija
 potaknuti
 izgovor
@@ -2144,55 +2066,52 @@ svojstvo
 prijedlog
 proza
 gonjenje
-zastita
+zaštita
 protest
 protokol
-pramac
-makaze
+prova
+nakaze
 pseudoznanost
 psihijatar
 psihoanaliticar
 psiholog
 psihologija
-alpska kokoska
+alpska kokoška
 javnost
 publicitet
-izdavac
+izdavač
 puding
 barica
-Vuci
+vuci
 kotur
 puma
 pumpa
 bundeva
-pumpkinseed
-busiti
+bušiti
 interpunkcija
 kazna
 lutka
-ucenik
-stene
+učenik
+štene
 kupiti
 puritanac
-purpurna boja
-Svrha
+ljubičasta boja
+svrha
 torbica
 gurnuti
-laktaros
+laktaroš
 staviti
 PVC
-pidzama
 piramida
 kvadrant
 prepelica
 kvaliteta
-kolicina
+količina
 kvart
-cetvrtina
-kvarcni
+četvrtina
 kraljica
 pitanje
-zivi pijesak
+živi pijesak
 miran
 pero
 jorgan
@@ -2200,15 +2119,14 @@ dunja
 prestati
 tobolac
 citat
-citat
 rabin
 zec
 rakun
 utrka
-trkac
+trkač
 trkaci
 rasizam
-rasisticki
+rasistički
 razbijati
 radar
 radijator
@@ -2219,38 +2137,37 @@ lutrija
 splav
 krpe
 bijes
-zeljeznicki
-zeljeznicka pruga
-odjeca
-kisa
+željeznički
+željeznička pruga
+odjeća
+kiša
 duga
 kabanica
 pljusak
-podici
-Grablje
+podići
+grablje
 radna memorija
 lutalica
-rami
 ranc
-slucajan
-randomizacije
+slučajan
+randomizacija
 opseg
 rang
 kupina
-stakor
+štakor
 stopa
 omjer
 gavran
 ravioli
 sirov
-sirova koza
+sirova koža
 zraka
-vjestacka svila
+vještačka svila
 dohvatiti
 reaktant
 reakcija
 citati
-citanje
+čitanje
 stvarnost
 razvrtac
 straznji
@@ -2259,41 +2176,40 @@ priznanica
 recepcija
 udubljenje
 recept
-naslonjaca
+naslonjača
 priznanje
 preporuka
 snimiti
-snimac
+snimač
 snimanje
 oporavak
 rekreacija
-Novak
+novak
 pravokutnik
-Crvena
+crvena
 redizajn
-ponovno otkrice
+ponovno otkriće
 smanjenje
 greben
-trpezarija
-upucivanje
+upućivanje
 odraz
 hladnjak
 povrat
 odbiti
 regija
-Registrirajte se
-zaljenje
+registrirajte se
+žaljenje
 redovan
 regulacija
 sob
 prepisivanje
 odbiti
 odnos
-rodak
-opustanje
-pustanje
+rođak
+opuštanje
+puštanje
 pouzdanost
-olaksanje
+olakšanje
 religija
 slast
 podsjetnik
@@ -2306,23 +2222,22 @@ ponoviti
 zamijeniti
 zamjena
 odgovor
-odgovor
-izvjesce
+izvješće
 predstavnik
 prerada
 republika
 ugled
 zahtjev
 ponovna prodaja
-istrazivanje
+istraživanje
 rezerva
-Rezidencija
+rezidencija
 odoljeti
 rezolucija
 odlucnost
-pribjeci
+pribjeći
 resurs
-postovanje
+poštovanje
 odmor
 odgovarati
 odgovor
@@ -2332,8 +2247,8 @@ restoran
 proizlaziti
 trgovac
 preispitivanje
-Mreznica
-retusirati
+Mrežnica
+retuširati
 povratak
 otkriti
 revenant
@@ -2348,35 +2263,35 @@ reumatizam
 nosorog
 rima
 ritam
-riza
+riža
 bogat
 zagonetka
 voznja
 jahac
 greben
-puska
+puška
 pravo
 naplatak
 prsten
-lisajevi
-Pocivao u miru
-mreskanje
+lišajevi
+počivao u miru
+mreškanje
 ustati
-direk
+direkt
 rizik
 Rijeka
-rijecno korito
-potocic
+riječno korito
+potočić
 cesta
 kolovoz
 pecenje
 haljina
-crvendac
+crvendać
 stijena
-stolica za ljuljanje
+ljuljačka
 raketa
 raketni brod
-stap
+štap
 uloga
 svitak
 valjak
@@ -2384,39 +2299,38 @@ krov
 soba
 pijetao
 korijen
-uze
-ruza
+uže
+ruža
 govornica
 rotirati
 hrapav
 krug
-kruzni tok
+kružni tok
 put
-usmjerivac
+usmjerivač
 rutina
 red
-camac
+čamac
 kraljevski
 trljati
 guma
-smece
+smeće
 rubrika
 lom
 talasati
 ragbi
 propast
-Pravilo
+pravilo
 rum
-trcanje
-pobjeci
-trkac
+trčanje
+pobjeći
+trkač
 zuriti
-svedska repa
+švedska repa
 tuga
-ry
 sablja
-vreca
-tuzan
+vreća
+tužan
 sedlo
 sef
 sigurnosni
@@ -2425,7 +2339,7 @@ ploviti
 jedrilica
 mornar
 salata
-placa
+plaća
 prodaja
 prodavac
 losos
@@ -2433,61 +2347,55 @@ salon
 limuzina
 sol
 samovar
-lak kineski camac
+lak kineski čamac
 uzorak
 samuraj
 pijesak
 sandale
 sprud
-sendvic
+sendvič
 sardina
-sari
-sarong
 pojas
 satelit
-saten
 satira
 zadovoljstvo
 umak
 kobasica
-ustedjeti
-usteda
-stednja
+uštedjeti
+ušteda
+štednja
 spasitelj
 pila
 saksofon
 ljestvica
 mladi luk
 skener
-strasilo
-zal
-skarifikacija
+strašilo
+žal
 scena
 dekoracije
 miris
 raspored
 shema
-shizofrenicar
-snicl
-skola
-skolska
+šizofreničar
+šnicl
+škola
+školska
 kuna
 znanost
-kriva istocnjacka sablja
-skare
+sablja
+škare
 skuter
-postici
+postići
 prezir
-slep sluzba
-strugac
-ogrepsti
-osoba koja vristi
+šlep služba
+strugač
+osoba koja vrišti
 zaslon
-Scenaristicka
+scenaristička
 vijak
-odvijac
-vijak gore
-platno za postavljanje namjestaja
+odvijač
+platno
 cedulja
 skripta
 oblikovanje
@@ -2495,16 +2403,15 @@ skulptura
 more
 plodovi mora
 galeb
-pecat
+pečat
 hidroavion
-trazi
+traži
 morska obala
-Primorsko
+Primorsko Goranska županija
 sezona
 sjedalo
 drugi
 tajna
-sekretarijat
 tajnica
 odjeljak
 sekcijska
@@ -2512,19 +2419,18 @@ sektor
 siguran
 sigurnosti
 sjeme
-sejacica
 segment
-Izaberi
+izaberi
 izbor
 sam
 prodavati
 polukrug
-tocka i zarez
+točka i zarez
 senator
 stariji
-osjecaj
+osjećaj
 osjetljiv
-recenica
+rečenica
 septikemija
 niz
 sluga
@@ -2542,74 +2448,69 @@ hlad
 sjena
 tresti
 iznuda
-sejker
+šejker
 sram
-sampon
-stracara
+šampon
+štracara
 oblik
 udio
 morski pas
-Sharon
-zal
+Ed Sheeran
+žal
 ona
-shearling
-skare
 korice
 proliti
 ovca
 list
 polica
 ljuska
-skloniste
+sklonište
 stit
 smjena
 cjevanica
 sjaj
 brod
-kosulja
-shoat
+košulja
 sok
 cipela
-zlica za cipele
+žlica za cipele
 vezica
 postolar
 cipele
 pertla
-sofer
+šofer
 pucati
-ducan
-musterija
+dućan
+mušterija
 kupovina
 poduprijeti
 nedostatak
-kratke hlace
+kratke hlače
 kratkotalasni
-sut
+šut
 rame
 lopata
 pokazati
-tus
-show-cep
+tuš
 isjeckati
-skamp
-svetiliste
+škamp
+svetilište
 polubrat
 bolestan
 strana
-stol za posude
+stol za posuđe
 zulufi
 prikolica
-postranicni
+postranični
 trotoar
-prilazenje
+prilaženje
 znak
 signal
 potpis
-pecat
-znacaj
+pečat
+značaj
 prijava
-tisina
-silika
+tišina
 svila
 svilena buba
 prag
@@ -2618,20 +2519,19 @@ silos
 srebro
 jednostavan
 pjevati
-pjevac
+pjevač
 singl
 umivaonik
 gospodine
 sestra
-sogorica
-Sitar
+šogorica
 mjesto
 situacija
-velicina
+veličina
 klizati
 skijanje
-vjestina
-koza
+vještina
+koža
 suknja
 lubanja
 kapica
@@ -2639,138 +2539,128 @@ tvor
 nebo
 svjetlarnik
 neboder
-Skywalk
 urnebesna komedija
 smanjiti
 rob
 sanke
 spavati
-susnjezica
+susnježica
 detektiv
-kriska
+kriška
 klizanje
-klizac
+klizač
 mulj
 skliznuti
-papuca
-papuce
+papuča
+papuče
 nagib
 lijenost
 razbiti
 miris
 taljenje
 osmijeh
-radnicka bluza
+radnička bluza
 smog
 dim
-pusenje
-krijumcarenje
-puz
+pušenje
+krijumčarenje
+puž
 zmija
 zmijski ujed
 tenisice
 kihanje
 snob
-snorer
 snijeg
 bordanje
 pahuljica
-snjegovic
+snjegović
 ralica
-mecava
+mećava
 priljubiti se
 sapun
 nogomet
-drustvo
+društvo
 sociologija
-carapa
-carape
+čarapa
+čarape
 soda
 sofa
 mekan
-softball
-bezalkoholno pice
-omeksavanje
+bezalkoholno piće
+omekšavanje
 softver
 tlo
 vojnik
 solidan
 pasijans
-rijesenje
+riješenje
 sombrero
-prevrtanje preko glave
+prevrtanje
 negdje
 sin
 pjesma
-pjevica
+pijavica
 sonet
-cad
 sopran
 tuga
 vrsta
-srodna dusa
+srodna duša
 zvuk
 juha
 izvor
 jug
-Juzna Amerika
-Juzna Korea
-krmaca
-soja
+Južna Amerika
+Južna Korea
+krmača
 soja
 prostor
 razmak
 pik
-spageti
-spandex
+špageti
 pljuska
 rezervni
 iskra
 vrabac
-grc
-zvucnik
-zvucnik
+grč
+zvučnik
 koplje
 poseban
 specijalista
-specificno
+specifično
 spektakl
-naocale
+naočale
 govor
 ubrzati
-brzi motorni camac
-carolija
+čarolija
 pravopis
-potrositi
+potrošiti
 sfera
 pauk
-siljak
-spinat
-kicma
+šiljak
+špinat
+kičma
 spirala
 duh
 duhovni
 inat
 slezena
 podjela
-spuzva
-zlica
+spužva
+žlica
 sport
 mjesto
 reflektor
 sprej
-sirenje
-Proljece
+širenje
+proljeće
 sprinter
 izboj
 dotjerati
 pjeniti
 mamuza
-spijun
+špijun
 kvadrat
 tikva
-sljapkati
-naprava za susenje poda
 lignja
 vjeverica
 stabilan
@@ -2782,72 +2672,65 @@ jelen
 faza
 mrlja
 stepenik
-stubiste
-zdrijebac
+stubište
+ždrijebac
 praznik
-izdrzljivost
-pecat
+izdržljivost
+pečat
 stav
 stajati
 standard
-uzdrzljivost
+uzdržljivost
 zvijezda
-pocetak
-starter
-drzava
+početak
+država
 izjava
 stanica
 karavan
-statisticki
+statistički
 status
 boravak
 odrezak
 ukrasti
 para
 parni valjak
-zeljezo
+željezo
 zvonik
 stabljika
 matrica
 korak
-korak-teta
 polubrat
 pastorka
-ocuh
-korak djed
-korak baka
-maceha
-maceha
-koracni kamena
+očuh
+korak
+baka
+maćeha
 koraci
 polusestra
 posinak
-posinak
-korak ujak
-paprikas
-stap
+ujak
+paprikaš
 stilet
-jos
+još
 sav
 zaliha
-carapa
-carape
+čarape
 roba za prodaju
 ukrao
 trbuh
 kamen
-kameni zidarski rad
+zidarski rad
 stolica
-Stop
+stop
 znak stop
-stoperica
-skladistenje
-ducan
+štoperica
+skladištenje
+dućan
 kat
 oluja
-prica
-pricanje price
-stednjak
+priča
+pričanje priče
+štednjak
 naprezanje
 tijesan
 stranac
@@ -2861,7 +2744,7 @@ tramvaj
 snaga
 stres
 rastezanje
-strajk
+štrajk
 niz
 traka
 udar
@@ -2875,7 +2758,6 @@ stvari
 spoticanje
 glup
 glupost
-jesetra
 stil
 gramofonska igla
 potkomponenta
@@ -2885,65 +2767,62 @@ podmornica
 podrutina
 slijeganje
 supstanca
-predgrade
-podzemna zeljeznica
+predgrađe
+podzemna željeznica
 uspjeh
 sisati
 antilop
-ugusenje
-secer
+ugušenje
+šećer
 prijedlog
 odijelo
 kofer
 sultan
 ljeto
 Sunce
-suncev zrak
+sunčeva zraka
 nedjelja
-suncani sat
+sunčani sat
 suncokret
-suncane naocale
+sunčane naočale
 kvarcanje
-sunce
 supermarket
-Opskrba
-podrska
-navijac
+opskrba
+podrška
+navijač
 suzbijanje
-povrsinski
+površinski
 daska za surfanje
 kirurg
 kirurgija
 prezime
-iznenadenje
-Surround
+iznenađenje
 pregled
 sushi
 sumnjiv
 tregeri
-odrzivost
+održivost
 SUV
 gutljaj
-Mocvara
+mocvara
 labud
-otkos
 znoj
-dzemper
+džemper
 znojenje
 majica
-Trenirka
-svedski
+trenirka
+švedski stol
 slatko
-slatkisi
+slatkiši
 naduti
 plivati
 plivanje
-kupaci kostim
+kupaći kostim
 ljuljati
-prekidac
+prekidač
 telefonska centrala
-stozer
-mac
+stožer
+mač
 sabljarka
 javor
 simetrija
@@ -2960,15 +2839,14 @@ tahometar
 pribor
 punoglavac
 rep
-krojac
+krojač
 prilagoditi
-kovit
-prica
+priča
 razgovor
 tam
 tambur
 tamburin
-okrugla vunena kapa
+vunena kapa
 tandem
 mandarina
 tenk
@@ -2976,10 +2854,8 @@ tanker
 spremnik
 vrh
 slavina
-tard
 cilj
 zadatak
-kicanka
 ukus
 tatami
 borovnjak
@@ -2987,9 +2863,9 @@ tetoviranje
 taverna
 porez
 taksi
-caj
-uciti
-ucitelj
+čaj
+učiti
+učitelj
 nastavnik
 profesor
 nastava
@@ -3003,34 +2879,33 @@ telefon
 televizijski ekran
 teletekst
 televizija
-reci
-pripovjedac
+reći
+pripovjedač
 temp
 temperament
 temperatura
 hram
 tempo
-privremenosti
+privremenost
 privremen
 zavodnica
 sklonost
-oronula stambena zgrada
+stambena zgrada
 tenis
 tenor
 napetost
-sator
+šator
 termin
-terakota
 barska kornjaca
 teritorija
 test
 tekst
-udzbenik
+udžbenik
 tekstura
-Hvala
-raskraviti
-kazaliste
-pretjerano pijenje caja
+hvala
+raskraviti se
+kazalište
+pretjerano pijenje čaja
 tema
 teorija
 terapeut
@@ -3038,18 +2913,14 @@ terme
 termometar
 bedro
 stvar
-misljenje
-zed
-Toma
-uzan remen
-japanke
+mišljenje
+remen
 trn
 misao
 nit
-uzbudenje
+uzbuđenje
 grlo
 tron
-drozd
 palac
 grmljavina
 munja
@@ -3065,52 +2936,51 @@ plocica
 do
 greda
 vrijeme
-Vremenska Crta
+vremenska crta
 pauza
-brojac
+brojač
 kositar
 kutija za kresivo
 zvonjenje
 ferotipija
-Savjet
+savjet
 guma
 tkivo
 titanij
 titula
-zaba krastaca
+žaba krastača
 tost
 danas
-nozni prst
+nožni prst
 toga
 odjeca
 WC
 tolerancija
-muzjak nekih malih zivotinja
-rajcica
+mužjak
+rajčica
 tomografija
 sutra
 tam-tam
 tona
 ton
 jezik
-veceras
+večeras
 alat
 kokain
 zub
-cetkica za zube
+četkica za zube
 pasta za zube
-cackalica
+čačkalica
 vrh
 cilindar
 tema
 gornje jedro
-cejlonski majmun
+majmun
 toreador
 tornado
 torzo
 tortelini
 kornjaca
-tosser
 ukupno
 totalizator
 dodir
@@ -3118,13 +2988,12 @@ tvrd
 tvrd momak
 obilazak
 turist
-rucnik
+ručnik
 toranj
 grad
-Gradska kuca
-vucno vozilo
-igracka
-trahom
+gradska kuca
+vučno vozilo
+igračka
 staza
 trenirka
 traktor
@@ -3147,18 +3016,18 @@ nadvratnik
 prijevoz
 transport
 kapak
-trapezoid
+trapez
 trapezoidan
-smece
+smeće
 putovati
 ladica
-lijeciti
-lijecenje
+liječiti
+liječenje
 drvo
-resetka od letava
+rešetka od letava
 tremor
 rov
-sudenje
+suđenje
 trokut
 pleme
 trik
@@ -3166,17 +3035,16 @@ trigonometrija
 dotjerati
 nakit
 putovanje
-tronozac
+tronožac
 trolej
 trombon
 policajac
 nevolja
-hlace
+hlače
 pastrva
-otkrice
+otkriće
 mistrija
 kamion
-truckit
 truba
 deblo
 povjerenje
@@ -3187,9 +3055,9 @@ tsunami
 kada
 tuba
 cijev
-tegljac
+tegljač
 lala
-trbuscic
+trbuščić
 tuna
 napjev
 podesavanje
@@ -3200,31 +3068,29 @@ turski
 skretanje
 repa
 promet
-okretiste
+okretište
 kupola
-kornjaca
-tucnjava
-kratka baletska suknja
+kornjača
+tučnjava
+baletska suknja
 smoking
 televizor
-grancica
+grančica
 sumrak
-viti
 uviti
 utvara
 dva
 tip
-pisaca masina
+pisaća mašina
 tajfun
 ukulele
 kisobran
-trepcuci
 ujak
 donje rublje
 podzemlje
 ispod
-gace
-podvoznjak
+gaće
+podvožnjak
 razumijevanje
 donje rublje
 nezaposlenost
@@ -3233,16 +3099,16 @@ unija
 jedinstvena
 jedinica
 jedinstvo
-sveuciliste
-Gornji
+sveučiliste
+gornji
 gore
 urna
 upotreba
 koristiti
 korisnik
 razvoditi
-uobicajen
-alatka
+uobičajen
+alat
 odmor
 vakuum
 skitnica
@@ -3261,16 +3127,13 @@ ogroman
 svod
 svodovi
 teletina
-povrce
+povrće
 vegetarijanizam
 vegetacija
 vozilo
 veo
 vena
-juznoafricka livada
-vellum
-velodrom
-barsun
+juznoafrička livada
 osveta
 otrov
 veranda
@@ -3280,7 +3143,7 @@ stih
 verzija
 vrtoglavica
 polet
-Brod
+Slavonski Brod
 prsluk
 odijelo
 vibracija
@@ -3291,16 +3154,14 @@ pogled
 vila
 selo
 vinograd
-vinil
 viola
 nasilje
-ljubicasta
+ljubičasta
 violina
-djevicanski
+djevičanski
 vrlina
 virus
-viskoza
-mengele
+viskoznost
 vizija
 posjetiti
 posjetilac
@@ -3313,62 +3174,60 @@ vulkan
 odbojka
 volumen
 putovanje
-sup
+juha
 zamotuljak
 hostija
 blebetanje
 struk
 pojas
-cekati
+čekati
 konobar
 konobarica
 probuditi
 hodati
-setac
+šetač
 nogostup
 zid
-novcanik
+novčanik
 orah
-morz
-nanizane skoljke
+morž
+nanizane školjke
 rat
 nadzornik
-vjestac
+vještac
 toplina
 zagrijati se
 upozorenje
 pranje
 umivaonik
-rucnik za pranje
-perac
+ručnik za pranje
+perač
 posuda za pranje rublja
 osa
 gubljenje
-Gledati
+gledati
 voda
-vodenom krevetu
+vodeni krevet
 slap
 skijanje na vodi
-oluk za vodu
 val
 vosak
 put
 slabost
 bogatstvo
-oruzje
+oružje
 nositi
 lasica
 vrijeme
-mreza
-vjencanje
+mreža
+vječcanje
 klin
 plijeviti
-sredstvo za unistavanje korova
 tjedan
 vikend
-tezina
-cudan
-Dobrodosli
+težina
+čudan
+dobrodošli
 blagostanje
 dobro
 zapadno
@@ -3376,22 +3235,22 @@ zapadni
 mokri bar
 odijelo
 kit
-pristaniste
-psenica
-kotac
+pristanište
+pšenica
+kotač
 dok
-bic
+bič
 vrtlog
 vihor
 dlaka
 viski
-zvizdati
+zviždati
 bijela
-citav
+čitav
 veleprodaja
 trgovac naveliko
-sirina
-zena
+širina
+žena
 divljina
 divlje zivotinje
 htjeti
@@ -3399,40 +3258,35 @@ vrba
 pobijediti
 vjetar
 utjecaj vjetra
-vjetra zvoniti
 prozor
-vjetrobran
 vjetrobran
 vino
 krilo
 pilot
 pobjednik
 zima
-zica
+žica
 mudrost
-pametnjakovic
-zelja
+pametnjaković
+želja
 glicinija
 vjestica
-lov na vjestice
-povlacenje
+lov na vještice
+povlačenje
 svjedok
 vuk
-vombat
-cudo
+čudo
 drvo
-sumovit kraj
-supa za drva
-drveni duhacki instrument
+šumovit kraj
+drvarnica
 vuna
 vunen
-rijec
+riječ
 raditi
-radna tezga
 radnik
 radni konj
 rad
-radni zivot
+radni život
 radionica
 svijet
 crv
@@ -3441,45 +3295,39 @@ vrijedan
 dostojan
 rana
 omotati
-brod za spasavanje
-caric
-kljuc
-hrvac
+brod za spašavanje
+ključ
+hrvač
 bora
-rucni zglob
-pisac
+ručni zglob
+pisač
 pisanje
-pogresno
+pogrešno
 ksilofon
 jahta
 jak
 jam
-dvoriste
-preda
+dvorište
 godina
 kvasac
-zuta boja
-jucer
-tisa
-yin
+žuta boja
+jučer
+tiše
 joga
 jogurt
-jaram
 vas
 mladi
-mladez
-jurta
-zampone
+mladež
 zebra
 zebraste ribice
 zefir
 zigurat
-cinkov
-zatvarac
-citra
+cink
+zatvarač
+citrus
 zona
-zooloski vrt
+zoološki vrt
 zoolog
 zoologija
-Zoo odijelo
+zoo odijelo
 tikvica
