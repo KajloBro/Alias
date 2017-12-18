@@ -258,4 +258,12 @@ public class Activity5_Teams extends AppCompatActivity {
         View view = getCurrentFocus();
         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Activity5_Teams.this, Activity4_Corpus.class);
+        intent.putExtra("GOAL", goal_result);
+        intent.putExtra("CHRONO", chronometer);
+        startActivity(intent);
+    }
 }

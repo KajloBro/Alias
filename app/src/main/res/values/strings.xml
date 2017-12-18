@@ -36,9 +36,11 @@
     <string name="chronometer_title">Chronometer</string>
 
     <!-- corpus -->
-    <string name="button_select_corpus">Select</string>
-    <string name="button_create_new">Read your corpus</string>
-    <string name="choose_corpus">Choose corpus</string>
+    <string name="button_select_corpus">Proceed</string>
+    <string name="button_create_new">Read Corpus</string>
+    <string name="lenth_txt">Terms: </string>
+    <string name="default_length">0</string>
+    <string name="choose_corpus">Corpus Management</string>
 
     <!-- teams -->
     <string name="button_play">Play</string>
