@@ -3,7 +3,8 @@ package com.example.domin.alias_learnbyplaying;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.AssetManager;
-import android.media.MediaPlayer;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.net.Uri;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
@@ -14,7 +15,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.CheckedTextView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -33,11 +33,13 @@ public class Activity4_Corpus extends AppCompatActivity {
     private Button button_select_corpus, button_create_new;
     private TextView tv_length;
     ArrayList<String> my_assets = new ArrayList<>();
+    ArrayList<String> copy_my_assets = new ArrayList<>();
     ArrayList<String> my_corpus = new ArrayList<>();
     String term = null;
     int goal_result, chronometer;
     int length = 0;
-    MediaPlayer click;
+    SoundPool mSoundPool;
+    int clickId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +47,8 @@ public class Activity4_Corpus extends AppCompatActivity {
         setContentView(R.layout.activity_corpus);
         goal_result = getIntent().getExtras().getInt("GOAL");
         chronometer = getIntent().getExtras().getInt("CHRONO");
+        mSoundPool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
+        clickId = mSoundPool.load(this, R.raw.ok, 1);
         getAssests();
         addListenerOnButtonSelectCorpus();
         addListenerOnButtonCreateNew();
@@ -59,19 +63,17 @@ public class Activity4_Corpus extends AppCompatActivity {
             }
         }
         catch (IOException e) { e.printStackTrace(); }
+        for (String clone : my_assets){
+            copy_my_assets.add(clone.replace(".txt", ""));
+        }
         list = (ListView)findViewById(R.id.list);
-        ArrayAdapter aa = new ArrayAdapter(this, android.R.layout.simple_list_item_checked, my_assets);
+        ArrayAdapter aa = new ArrayAdapter(this, android.R.layout.simple_list_item_checked, copy_my_assets);
         list.setAdapter(aa);
         list.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                if (click != null) {
-                    click.stop();
-                    click.release();
-                }
-                click = MediaPlayer.create(Activity4_Corpus.this, R.raw.ok);
-                click.start();
+                mSoundPool.play(clickId,1,1,1,0,1);
                 tv_length = (TextView)findViewById(R.id.textView_length);
                 CheckedTextView item = (CheckedTextView) view;
                 try {
@@ -118,12 +120,7 @@ public class Activity4_Corpus extends AppCompatActivity {
                             Toast.makeText(Activity4_Corpus.this, "Check at least one corpus", Toast.LENGTH_SHORT).show();
                         }
                         else {
-                            if (click != null) {
-                                click.stop();
-                                click.release();
-                            }
-                            click = MediaPlayer.create(Activity4_Corpus.this, R.raw.ok);
-                            click.start();
+                            mSoundPool.play(clickId,1,1,1,0,1);
                             Collections.shuffle(my_corpus);
                             Intent intent = new Intent(Activity4_Corpus.this, Activity5_Teams.class);
                             intent.putStringArrayListExtra("CORPUS", my_corpus);
@@ -143,13 +140,8 @@ public class Activity4_Corpus extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        if (click != null) {
-                            click.stop();
-                            click.release();
-                        }
+                        mSoundPool.play(clickId,1,1,1,0,1);
                         add2Array();
-                        click = MediaPlayer.create(Activity4_Corpus.this, R.raw.ok);
-                        click.start();
                         Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
                         intent.addCategory(Intent.CATEGORY_OPENABLE);
                         intent.setType("text/*");
@@ -187,5 +179,11 @@ public class Activity4_Corpus extends AppCompatActivity {
             startActivity(intent);
         }
         catch (Exception e) { e.printStackTrace(); }
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Activity4_Corpus.this, Activity3_Options.class);
+        startActivity(intent);
     }
 }

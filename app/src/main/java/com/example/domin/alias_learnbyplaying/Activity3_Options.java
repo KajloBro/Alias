@@ -1,7 +1,8 @@
 package com.example.domin.alias_learnbyplaying;
 
 import android.content.Intent;
-import android.media.MediaPlayer;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,12 +16,15 @@ public class Activity3_Options extends AppCompatActivity {
     private TextView textView_chrono, textView_goal_result;
     private SeekBar seekbar_goal, seekbar_chrono;
     int goal_result, chronometer;
-    MediaPlayer click;
+    SoundPool mSoundPool;
+    int clickId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_options);
+        mSoundPool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
+        clickId = mSoundPool.load(this, R.raw.ok, 1);
         addListenerOnButtonSet();
         addListenerOnSeekBarGoal();
         addListenerOnSeekBarChrono();
@@ -81,12 +85,7 @@ public class Activity3_Options extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        if (click != null){
-                            click.stop();
-                            click.release();
-                        }
-                        MediaPlayer click = MediaPlayer.create(Activity3_Options.this, R.raw.ok);
-                        click.start();
+                        mSoundPool.play(clickId,1,1,1,0,1);
                         goal_result = Integer.parseInt(textView_goal_result.getText().toString());
                         chronometer = Integer.parseInt(textView_chrono.getText().toString());
                         Intent intent = new Intent(Activity3_Options.this, Activity4_Corpus.class);
@@ -96,5 +95,11 @@ public class Activity3_Options extends AppCompatActivity {
                     }
                 }
         );
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Activity3_Options.this, Activity1_Main.class);
+        startActivity(intent);
     }
 }

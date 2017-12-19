@@ -3,7 +3,8 @@ package com.example.domin.alias_learnbyplaying;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.media.MediaPlayer;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,14 +20,15 @@ public class Activity6_Play extends AppCompatActivity {
     private TextView score_textview, term, score_txt, my_chronometer;
     private Button correct, wrong;
     int score, goal_result, chronometer;
-    int attempt = 0;
+    int attempt = 0, catch_drama, catch_win;
     CountDownTimer timer;
     ArrayList<String> corpus = new ArrayList<>();
     ArrayList<Team> Teams = new ArrayList<>();
     ArrayList<Team> Teams_Sorted = new ArrayList<>(Teams.size());
     ArrayList<EndOfTurnTerms> EoTTerms = new ArrayList<>();
-    boolean emptyCorpus, play = false;
-    MediaPlayer mpcorrect, mpwrong, mpdrama, mpend, mpshotgun, mpwin, mpclick;
+    boolean emptyCorpus, play = false, flag = false;
+    SoundPool mSoundPool;
+    int correctId, dramaId, endId, clickId, shotgunId, winId, wrongId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,14 @@ public class Activity6_Play extends AppCompatActivity {
         chronometer = getIntent().getExtras().getInt("CHRONO");
         corpus = getIntent().getExtras().getStringArrayList("CORPUS");
         Teams = (ArrayList<Team>)getIntent().getSerializableExtra("TEAMS");
+        mSoundPool = new SoundPool(10, AudioManager.STREAM_MUSIC, 0);
+        correctId = mSoundPool.load(this, R.raw.correct, 1);
+        dramaId = mSoundPool.load(this, R.raw.drama, 1);
+        endId= mSoundPool.load(this, R.raw.end, 1);
+        clickId = mSoundPool.load(this, R.raw.ok, 1);
+        shotgunId= mSoundPool.load(this, R.raw.shotgun, 1);
+        winId = mSoundPool.load(this, R.raw.win, 1);
+        wrongId= mSoundPool.load(this, R.raw.wrong, 1);
         Collections.shuffle(Teams);
         newAttempt();
         addListenerOnButtonCorrect();
@@ -63,13 +73,8 @@ public class Activity6_Play extends AppCompatActivity {
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                if (mpclick != null) {
-                    mpclick.stop();
-                    mpclick.release();
-                }
-                mpclick = MediaPlayer.create(Activity6_Play.this, R.raw.ok);
-                mpclick.start();
-                mpdrama.stop();
+                mSoundPool.play(clickId,1,1,1,0,1);
+                mSoundPool.stop(catch_drama);
                 timer.cancel();
                 Intent intent = new Intent(Activity6_Play.this, Activity1_Main.class);
                 startActivity(intent);
@@ -94,12 +99,7 @@ public class Activity6_Play extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        if (mpcorrect != null) {
-                            mpcorrect.stop();
-                            mpcorrect.release();
-                        }
-                        mpcorrect = MediaPlayer.create(Activity6_Play.this, R.raw.correct);
-                        mpcorrect.start();
+                        mSoundPool.play(correctId,1,1,1,0,1);
                         score++;
                         EoTTerms.add(new EndOfTurnTerms(corpus.get(0), "+"));
                         corpus.remove(0);
@@ -138,12 +138,7 @@ public class Activity6_Play extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        if (mpwrong != null) {
-                            mpwrong.stop();
-                            mpwrong.release();
-                        }
-                        mpwrong = MediaPlayer.create(Activity6_Play.this, R.raw.wrong);
-                        mpwrong.start();
+                        mSoundPool.play(wrongId,1,1,1,0,1);
                         score--;
                         EoTTerms.add(new EndOfTurnTerms(corpus.get(0), "-"));
                         corpus.remove(0);
@@ -194,40 +189,27 @@ public class Activity6_Play extends AppCompatActivity {
         final AlertDialog.Builder builder = new AlertDialog.Builder(Activity6_Play.this, AlertDialog.THEME_HOLO_LIGHT);
         builder.setTitle("Get Ready: " + getTeam(attempt, Teams));
         builder.setMessage("Reader: " + getReader(attempt, Teams) + "\nListener: " + getListener(attempt, Teams));
-        if (mpdrama != null) {
-            mpdrama.stop();
-            mpdrama.release();
-        }
-        mpdrama = MediaPlayer.create(Activity6_Play.this, R.raw.drama);
         builder.setNeutralButton("START", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 timer = new CountDownTimer((chronometer + 1) * 1000, 1000) {
                     @Override
                     public void onTick(long millisUntilFinished) {
-                        if (millisUntilFinished < 10000) {
-                            mpdrama.start();
+                        if (millisUntilFinished < 10000 && flag == false) {
+                            catch_drama = mSoundPool.play(dramaId,1,1,1,0,1);
+                            flag = true;
                         }
                         my_chronometer = (TextView)findViewById(R.id.textView_chronometer);
                         my_chronometer.setText(String.valueOf(millisUntilFinished / 1000));
                     }
                     @Override
                     public void onFinish() {
-                        if (mpend != null) {
-                            mpend.stop();
-                            mpend.release();
-                        }
-                        mpend= MediaPlayer.create(Activity6_Play.this, R.raw.end);
-                        mpend.start();
+                        flag = false;
+                        mSoundPool.play(endId,1,1,1,0,1);
                         SeeTerms();
                     }
                 };
-                if (mpshotgun != null) {
-                    mpshotgun.stop();
-                    mpshotgun.release();
-                }
-                mpshotgun = MediaPlayer.create(Activity6_Play.this, R.raw.shotgun);
-                mpshotgun.start();
+                mSoundPool.play(shotgunId,1,1,1,0,1);
                 timer.start();
                 term.setText(corpus.get(0));
                 dialogInterface.cancel();
@@ -267,12 +249,7 @@ public class Activity6_Play extends AppCompatActivity {
         builder.setNeutralButton("PROCEED", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                if (mpclick != null) {
-                    mpclick.stop();
-                    mpclick.release();
-                }
-                mpclick = MediaPlayer.create(Activity6_Play.this, R.raw.ok);
-                mpclick.start();
+                mSoundPool.play(clickId,1,1,1,0,1);
                 if (Teams.get(turn(attempt, Teams)).getScore() >= goal_result || emptyCorpus == true){
                     dialogInterface.cancel();
                     announceWinner();
@@ -301,12 +278,7 @@ public class Activity6_Play extends AppCompatActivity {
         builder.setPositiveButton("PROCEED", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                if (mpclick != null) {
-                    mpclick.stop();
-                    mpclick.release();
-                }
-                mpclick = MediaPlayer.create(Activity6_Play.this, R.raw.ok);
-                mpclick.start();
+                mSoundPool.play(clickId,1,1,1,0,1);
                 dialogInterface.cancel();
                 Highscore();
             }
@@ -321,12 +293,7 @@ public class Activity6_Play extends AppCompatActivity {
 
     public void announceWinner(){
         if (play == false){
-            if (mpwin != null) {
-                mpwin.stop();
-                mpwin.release();
-            }
-            mpwin = MediaPlayer.create(Activity6_Play.this, R.raw.win);
-            mpwin.start();
+            catch_win = mSoundPool.play(winId,1,1,1,0,1);
         }
         play = true;
         final AlertDialog.Builder builder = new AlertDialog.Builder(Activity6_Play.this, AlertDialog.THEME_HOLO_LIGHT);
@@ -335,7 +302,7 @@ public class Activity6_Play extends AppCompatActivity {
         builder.setNegativeButton("CLOSE", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                mpwin.stop();
+                mSoundPool.stop(catch_win);
                 Intent intent = new Intent(Activity6_Play.this, Activity1_Main.class);
                 startActivity(intent);
             }

@@ -2,7 +2,8 @@ package com.example.domin.alias_learnbyplaying;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.media.MediaPlayer;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +14,6 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Activity5_Teams extends AppCompatActivity {
     private Button button_sign, button_play, button_apply;
@@ -27,7 +27,8 @@ public class Activity5_Teams extends AppCompatActivity {
     int current_size = 0;
     ArrayList<Team> Teams = new ArrayList<>();
     ArrayList<String> corpus = new ArrayList<>();
-    MediaPlayer click;
+    SoundPool mSoundPool;
+    int clickId, delId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,9 @@ public class Activity5_Teams extends AppCompatActivity {
         goal_result = getIntent().getExtras().getInt("GOAL");
         chronometer = getIntent().getExtras().getInt("CHRONO");
         corpus = getIntent().getExtras().getStringArrayList("CORPUS");
+        mSoundPool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
+        clickId = mSoundPool.load(this, R.raw.ok, 1);
+        delId = mSoundPool.load(this, R.raw.del, 1);
         button_play = (Button) findViewById(R.id.button_play);
         button_sign = (Button) findViewById(R.id.button_sign_team);
         button_apply = (Button) findViewById(R.id.button_apply);
@@ -108,12 +112,7 @@ public class Activity5_Teams extends AppCompatActivity {
                             Toast.makeText(Activity5_Teams.this, "Sorry, maximum length is 15", Toast.LENGTH_SHORT).show();
                         }
                         else {
-                            if (click != null) {
-                                click.stop();
-                                click.release();
-                            }
-                            click = MediaPlayer.create(Activity5_Teams.this, R.raw.ok);
-                            click.start();
+                            mSoundPool.play(clickId,1,1,1,0,1);
                             textViews[attempt].setText(tmp_team);
                             editButtons[attempt].setVisibility(View.VISIBLE);
                             delButtons[attempt].setVisibility(View.VISIBLE);
@@ -136,30 +135,28 @@ public class Activity5_Teams extends AppCompatActivity {
     }
 
     public void edit(final ImageButton button, final TextView textView, final int index){
+        final ImageButton[] editButtons = {button_edit1, button_edit2, button_edit3, button_edit4, button_edit5, button_edit6};
+        final ImageButton[] delButtons = {button_del1, button_del2, button_del3, button_del4, button_del5, button_del6};
         button.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        if (click != null) {
-                            click.stop();
-                            click.release();
-                        }
-                        click = MediaPlayer.create(Activity5_Teams.this, R.raw.ok);
-                        click.start();
+                        mSoundPool.play(clickId,1,1,1,0,1);
                         editTextTeam.setText(Teams.get(index).getName());
                         editTextPlayer1.setText(Teams.get(index).getPlayer1());
                         editTextPlayer2.setText(Teams.get(index).getPlayer2());
+                        button_sign.setVisibility(View.GONE);
+                        button_play.setVisibility(View.GONE);
+                        for (int i = 0; i < Teams.size(); i++){
+                            delButtons[i].setVisibility(View.GONE);
+                            editButtons[i].setVisibility(View.GONE);
+                        }
                         button_apply.setVisibility(View.VISIBLE);
                         button_apply.setOnClickListener(
                                 new View.OnClickListener() {
                                     @Override
                                     public void onClick(View view) {
-                                        if (click != null) {
-                                            click.stop();
-                                            click.release();
-                                        }
-                                        click = MediaPlayer.create(Activity5_Teams.this, R.raw.ok);
-                                        click.start();
+                                        mSoundPool.play(clickId,1,1,1,0,1);
                                         tmp_team = editTextTeam.getText().toString();
                                         tmp_player1 = editTextPlayer1.getText().toString();
                                         tmp_player2 = editTextPlayer2.getText().toString();
@@ -172,6 +169,12 @@ public class Activity5_Teams extends AppCompatActivity {
                                         editTextPlayer1.setText("");
                                         editTextPlayer2.setText("");
                                         button_apply.setVisibility(View.GONE);
+                                        if (Teams.size() >= 2) { button_play.setVisibility(View.VISIBLE); }
+                                        button_sign.setVisibility(View.VISIBLE);
+                                        for (int i = 0; i < Teams.size(); i++) {
+                                            delButtons[i].setVisibility(View.VISIBLE);
+                                            editButtons[i].setVisibility(View.VISIBLE);
+                                        }
                                         hideKeyboard();
                                     }
                                 }
@@ -189,12 +192,7 @@ public class Activity5_Teams extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        if (click != null) {
-                            click.stop();
-                            click.release();
-                        }
-                        click = MediaPlayer.create(Activity5_Teams.this, R.raw.ok);
-                        click.start();
+                        mSoundPool.play(delId,1,1,1,0,1);
                         Teams.remove(index);
                         textViews[index].setText("");
                         editButtons[index].setVisibility(View.GONE);
@@ -236,12 +234,7 @@ public class Activity5_Teams extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        if (click != null) {
-                            click.stop();
-                            click.release();
-                        }
-                        click = MediaPlayer.create(Activity5_Teams.this, R.raw.ok);
-                        click.start();
+                        mSoundPool.play(clickId,1,1,1,0,1);
                         Intent intent = new Intent(Activity5_Teams.this, Activity6_Play.class);
                         intent.putExtra("GOAL", goal_result);
                         intent.putExtra("CHRONO", chronometer);

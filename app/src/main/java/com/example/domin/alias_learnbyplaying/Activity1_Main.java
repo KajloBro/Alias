@@ -1,7 +1,8 @@
 package com.example.domin.alias_learnbyplaying;
 
 import android.content.Intent;
-import android.media.MediaPlayer;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,12 +12,15 @@ public class Activity1_Main extends AppCompatActivity {
 
     private Button button_play;
     private Button button_info;
-    MediaPlayer click;
+    SoundPool mSoundPool;
+    int clickId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mSoundPool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
+        clickId = mSoundPool.load(this, R.raw.ok, 1);
         addListenerOnButtonPlay();
         addListeneronButtonInfo();
     }
@@ -27,12 +31,7 @@ public class Activity1_Main extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        if (click!=null) {
-                            click.stop();
-                            click.release();
-                        }
-                        click = MediaPlayer.create(Activity1_Main.this,R.raw.ok);
-                        click.start();
+                        mSoundPool.play(clickId, 1, 1, 1, 0, 1);
                         Intent intent = new Intent("com.example.domin.alias_learnbyplaying.Activity3_Options");
                         startActivity(intent);
                     }
@@ -45,12 +44,7 @@ public class Activity1_Main extends AppCompatActivity {
         button_info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (click!=null) {
-                    click.stop();
-                    click.release();
-                }
-                click = MediaPlayer.create(Activity1_Main.this,R.raw.ok);
-                click.start();
+                mSoundPool.play(clickId, 1, 1, 1, 0, 1);
                 Intent intent = new Intent("com.example.domin.alias_learnbyplaying.Activity2_Instructions");
                 startActivity(intent);
             }
