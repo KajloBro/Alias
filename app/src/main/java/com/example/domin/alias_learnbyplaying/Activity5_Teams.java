@@ -28,7 +28,7 @@ public class Activity5_Teams extends AppCompatActivity {
     ArrayList<Team> Teams = new ArrayList<>();
     ArrayList<String> corpus = new ArrayList<>();
     SoundPool mSoundPool;
-    int clickId, delId;
+    int clickId, delId, errId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +39,7 @@ public class Activity5_Teams extends AppCompatActivity {
         corpus = getIntent().getExtras().getStringArrayList("CORPUS");
         mSoundPool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
         clickId = mSoundPool.load(this, R.raw.ok, 1);
+        errId = mSoundPool.load(this, R.raw.err, 1);
         delId = mSoundPool.load(this, R.raw.del, 1);
         button_play = (Button) findViewById(R.id.button_play);
         button_sign = (Button) findViewById(R.id.button_sign_team);
@@ -107,9 +108,12 @@ public class Activity5_Teams extends AppCompatActivity {
                         tmp_player2 = editTextPlayer2.getText().toString();
                         if (tmp_team.length() < 1 || tmp_player1.length() < 1 ||tmp_player2.length() < 1){
                             Toast.makeText(Activity5_Teams.this, "Uhmmm, info missing...", Toast.LENGTH_SHORT).show();
+                            mSoundPool.play(errId,1,1,1,0,1);
+
                         }
                         else if (tmp_team.length() > 15 || tmp_player1.length() > 15 || tmp_player2.length() > 15){
                             Toast.makeText(Activity5_Teams.this, "Sorry, maximum length is 15", Toast.LENGTH_SHORT).show();
+                            mSoundPool.play(errId,1,1,1,0,1);
                         }
                         else {
                             mSoundPool.play(clickId,1,1,1,0,1);

@@ -39,7 +39,7 @@ public class Activity4_Corpus extends AppCompatActivity {
     int goal_result, chronometer;
     int length = 0;
     SoundPool mSoundPool;
-    int clickId;
+    int clickId, errId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +49,7 @@ public class Activity4_Corpus extends AppCompatActivity {
         chronometer = getIntent().getExtras().getInt("CHRONO");
         mSoundPool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
         clickId = mSoundPool.load(this, R.raw.ok, 1);
+        errId = mSoundPool.load(this, R.raw.err, 1);
         getAssests();
         addListenerOnButtonSelectCorpus();
         addListenerOnButtonCreateNew();
@@ -118,6 +119,8 @@ public class Activity4_Corpus extends AppCompatActivity {
                         add2Array();
                         if (my_corpus.isEmpty()) {
                             Toast.makeText(Activity4_Corpus.this, "Check at least one corpus", Toast.LENGTH_SHORT).show();
+                            mSoundPool.play(errId,1,1,1,0,1);
+
                         }
                         else {
                             mSoundPool.play(clickId,1,1,1,0,1);
