@@ -10,8 +10,7 @@ import android.widget.Button;
 
 public class Activity1_Main extends AppCompatActivity {
 
-    private Button button_play;
-    private Button button_info;
+    private Button button_play, button_info, button_about;
     SoundPool mSoundPool;
     int clickId;
 
@@ -23,6 +22,7 @@ public class Activity1_Main extends AppCompatActivity {
         clickId = mSoundPool.load(this, R.raw.ok, 1);
         addListenerOnButtonPlay();
         addListeneronButtonInfo();
+        addListenerOnButtonAbout();
     }
 
     public void addListenerOnButtonPlay(){
@@ -32,7 +32,7 @@ public class Activity1_Main extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         mSoundPool.play(clickId, 1, 1, 1, 0, 1);
-                        Intent intent = new Intent("com.example.domin.alias_learnbyplaying.Activity3_Options");
+                        Intent intent = new Intent("com.example.domin.alias_learnbyplaying.Activity4_Options");
                         startActivity(intent);
                     }
                 }
@@ -49,5 +49,18 @@ public class Activity1_Main extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    public void addListenerOnButtonAbout() {
+        button_about = (Button)findViewById(R.id.button_about);
+        button_about.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        mSoundPool.play(clickId,1,1,1,0,1);
+                        Intent intent = new Intent("com.example.domin.alias_learnbyplaying.Activity3_About");
+                        startActivity(intent);
+                    }
+                }
+        );
     }
 }

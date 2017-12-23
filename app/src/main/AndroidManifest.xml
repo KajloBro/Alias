@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.domin.alias_learnbyplaying">
+
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
@@ -29,40 +30,49 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity3_Options"
+            android:name=".Activity4_Options"
             android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="com.example.domin.alias_learnbyplaying.Activity3_Options" />
+                <action android:name="com.example.domin.alias_learnbyplaying.Activity4_Options" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity4_Corpus"
+            android:name=".Activity5_Corpus"
             android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="com.example.domin.alias_learnbyplaying.Activity4_Corpus" />
+                <action android:name="com.example.domin.alias_learnbyplaying.Activity5_Corpus" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity5_Teams"
+            android:name=".Activity6_Teams"
             android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="com.example.domin.alias_learnbyplaying.Activity5_Teams" />
+                <action android:name="com.example.domin.alias_learnbyplaying.Activity6_Teams" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity6_Play"
+            android:name=".Activity7_Play"
             android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="com.example.domin.alias_learnbyplaying.Activity6_Play" />
+                <action android:name="com.example.domin.alias_learnbyplaying.Activity7_Play" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity3_About"
+            android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="com.example.domin.alias_learnbyplaying.Activity3_About" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
         </activity>
     </application>
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.domin.alias_learnbyplaying.Activity6_Play"
+    tools:context="com.example.domin.alias_learnbyplaying.Activity7_Play"
     android:background="@drawable/bg">
 
     <TextView

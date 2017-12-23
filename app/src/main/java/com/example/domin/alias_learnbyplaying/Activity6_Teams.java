@@ -15,7 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import java.util.ArrayList;
 
-public class Activity5_Teams extends AppCompatActivity {
+public class Activity6_Teams extends AppCompatActivity {
     private Button button_sign, button_play, button_apply;
     private ImageButton button_edit1, button_edit2, button_edit3, button_edit4, button_edit5, button_edit6;
     private ImageButton button_del1, button_del2, button_del3, button_del4, button_del5, button_del6;
@@ -107,12 +107,12 @@ public class Activity5_Teams extends AppCompatActivity {
                         tmp_player1 = editTextPlayer1.getText().toString();
                         tmp_player2 = editTextPlayer2.getText().toString();
                         if (tmp_team.length() < 1 || tmp_player1.length() < 1 ||tmp_player2.length() < 1){
-                            Toast.makeText(Activity5_Teams.this, "Uhmmm, info missing...", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Activity6_Teams.this, "Uhmmm, info missing...", Toast.LENGTH_SHORT).show();
                             mSoundPool.play(errId,1,1,1,0,1);
 
                         }
                         else if (tmp_team.length() > 15 || tmp_player1.length() > 15 || tmp_player2.length() > 15){
-                            Toast.makeText(Activity5_Teams.this, "Sorry, maximum length is 15", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Activity6_Teams.this, "Sorry, maximum length is 15", Toast.LENGTH_SHORT).show();
                             mSoundPool.play(errId,1,1,1,0,1);
                         }
                         else {
@@ -239,7 +239,7 @@ public class Activity5_Teams extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         mSoundPool.play(clickId,1,1,1,0,1);
-                        Intent intent = new Intent(Activity5_Teams.this, Activity6_Play.class);
+                        Intent intent = new Intent(Activity6_Teams.this, Activity7_Play.class);
                         intent.putExtra("GOAL", goal_result);
                         intent.putExtra("CHRONO", chronometer);
                         intent.putExtra("TEAMS", (ArrayList<Team>)Teams);
@@ -258,7 +258,7 @@ public class Activity5_Teams extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(Activity5_Teams.this, Activity4_Corpus.class);
+        Intent intent = new Intent(Activity6_Teams.this, Activity5_Corpus.class);
         intent.putExtra("GOAL", goal_result);
         intent.putExtra("CHRONO", chronometer);
         startActivity(intent);

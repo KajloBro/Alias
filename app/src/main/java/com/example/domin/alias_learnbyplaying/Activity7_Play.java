@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class Activity6_Play extends AppCompatActivity {
+public class Activity7_Play extends AppCompatActivity {
 
     private TextView score_textview, term, score_txt, my_chronometer;
     private Button correct, wrong;
@@ -67,7 +67,7 @@ public class Activity6_Play extends AppCompatActivity {
     }
 
     public void onBackPressed(){
-        final AlertDialog.Builder builder = new AlertDialog.Builder(Activity6_Play.this, AlertDialog.THEME_HOLO_LIGHT);
+        final AlertDialog.Builder builder = new AlertDialog.Builder(Activity7_Play.this, AlertDialog.THEME_HOLO_LIGHT);
         builder.setTitle("Alert");
         builder.setMessage("Are you sure you want to quit?");
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
@@ -76,7 +76,7 @@ public class Activity6_Play extends AppCompatActivity {
                 mSoundPool.play(clickId,1,1,1,0,1);
                 mSoundPool.stop(catch_drama);
                 timer.cancel();
-                Intent intent = new Intent(Activity6_Play.this, Activity1_Main.class);
+                Intent intent = new Intent(Activity7_Play.this, Activity1_Main.class);
                 startActivity(intent);
             }
         });
@@ -186,7 +186,7 @@ public class Activity6_Play extends AppCompatActivity {
     }
 
     public void GetReady(){
-        final AlertDialog.Builder builder = new AlertDialog.Builder(Activity6_Play.this, AlertDialog.THEME_HOLO_LIGHT);
+        final AlertDialog.Builder builder = new AlertDialog.Builder(Activity7_Play.this, AlertDialog.THEME_HOLO_LIGHT);
         builder.setTitle("Get Ready: " + getTeam(attempt, Teams));
         builder.setMessage("Reader: " + getReader(attempt, Teams) + "\nListener: " + getListener(attempt, Teams));
         builder.setNeutralButton("START", new DialogInterface.OnClickListener() {
@@ -222,7 +222,7 @@ public class Activity6_Play extends AppCompatActivity {
     }
 
     public void Highscore(){
-        final AlertDialog.Builder builder = new AlertDialog.Builder(Activity6_Play.this, AlertDialog.THEME_HOLO_LIGHT);
+        final AlertDialog.Builder builder = new AlertDialog.Builder(Activity7_Play.this, AlertDialog.THEME_HOLO_LIGHT);
         Teams_Sorted.clear();
         if (emptyCorpus == true){
             builder.setTitle("Sorry, End of File\nHIGHSCORE");
@@ -268,7 +268,7 @@ public class Activity6_Play extends AppCompatActivity {
     }
 
     public void SeeTerms() {
-        final AlertDialog.Builder builder = new AlertDialog.Builder(Activity6_Play.this, AlertDialog.THEME_HOLO_LIGHT);
+        final AlertDialog.Builder builder = new AlertDialog.Builder(Activity7_Play.this, AlertDialog.THEME_HOLO_LIGHT);
         builder.setTitle("Score: " + score);
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < EoTTerms.size(); i++) {
@@ -296,14 +296,14 @@ public class Activity6_Play extends AppCompatActivity {
             catch_win = mSoundPool.play(winId,1,1,1,0,1);
         }
         play = true;
-        final AlertDialog.Builder builder = new AlertDialog.Builder(Activity6_Play.this, AlertDialog.THEME_HOLO_LIGHT);
+        final AlertDialog.Builder builder = new AlertDialog.Builder(Activity7_Play.this, AlertDialog.THEME_HOLO_LIGHT);
         builder.setTitle("Congratulations");
         builder.setMessage(Teams_Sorted.get(0).getName() + " are the real MVP");
         builder.setNegativeButton("CLOSE", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 mSoundPool.stop(catch_win);
-                Intent intent = new Intent(Activity6_Play.this, Activity1_Main.class);
+                Intent intent = new Intent(Activity7_Play.this, Activity1_Main.class);
                 startActivity(intent);
             }
         });

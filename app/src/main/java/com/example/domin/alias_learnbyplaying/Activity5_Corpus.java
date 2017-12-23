@@ -27,7 +27,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Activity4_Corpus extends AppCompatActivity {
+public class Activity5_Corpus extends AppCompatActivity {
 
     private ListView list;
     private Button button_select_corpus, button_create_new;
@@ -118,14 +118,14 @@ public class Activity4_Corpus extends AppCompatActivity {
                     public void onClick(View view) {
                         add2Array();
                         if (my_corpus.isEmpty()) {
-                            Toast.makeText(Activity4_Corpus.this, "Check at least one corpus", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Activity5_Corpus.this, "Check at least one corpus", Toast.LENGTH_SHORT).show();
                             mSoundPool.play(errId,1,1,1,0,1);
 
                         }
                         else {
                             mSoundPool.play(clickId,1,1,1,0,1);
                             Collections.shuffle(my_corpus);
-                            Intent intent = new Intent(Activity4_Corpus.this, Activity5_Teams.class);
+                            Intent intent = new Intent(Activity5_Corpus.this, Activity6_Teams.class);
                             intent.putStringArrayListExtra("CORPUS", my_corpus);
                             intent.putExtra("GOAL", goal_result);
                             intent.putExtra("CHRONO", chronometer);
@@ -173,7 +173,7 @@ public class Activity4_Corpus extends AppCompatActivity {
                 my_corpus.add(term);
             }
             Collections.shuffle(my_corpus);
-            Intent intent = new Intent(Activity4_Corpus.this, Activity5_Teams.class);
+            Intent intent = new Intent(Activity5_Corpus.this, Activity6_Teams.class);
             intent.putStringArrayListExtra("CORPUS", my_corpus);
             intent.putExtra("GOAL", goal_result);
             intent.putExtra("CHRONO", chronometer);
@@ -186,7 +186,7 @@ public class Activity4_Corpus extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(Activity4_Corpus.this, Activity3_Options.class);
+        Intent intent = new Intent(Activity5_Corpus.this, Activity4_Options.class);
         startActivity(intent);
     }
 }

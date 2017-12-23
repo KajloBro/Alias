@@ -2,11 +2,11 @@
 
     <!-- app -->
     <string name="app_name">Alias</string>
-    <string name="beta">\nCopyright © 2017 by Dominik Barjaktaric</string>
 
     <!-- main -->
     <string name="button_play_name">New game</string>
     <string name="button_info">How to play</string>
+    <string name="button_about">About</string>
     <string name="main_title">ALIAS  \nlearn by playing  \nplay by learning</string>
 
     <!-- info -->
@@ -26,6 +26,10 @@
         \n\nWhen there is less than 10 seconds left, consider about pressing
         wrong button because there might not be enough time to guess the
         next word</string>
+    <!-- about -->
+    <string name="about_title">About</string>
+    <string name="about">Copyright © 2017 by Dominik Barjaktaric\n\nE-mail:
+        dominik.barjaktaric@hotmail.com\n\nReport bugs, suggestions, new features</string>
 
     <!-- options -->
     <string name="button_set">Set</string>
@@ -55,6 +59,7 @@
     <string name="button_wrong">Wrong</string>
     <string name="score">0</string>
     <string name="score_txt">SCORE:</string>
+    <string name="title_activity_activity3__about">Activity3_About</string>
 
 </resources>
 

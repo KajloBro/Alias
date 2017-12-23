@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-public class Activity3_Options extends AppCompatActivity {
+public class Activity4_Options extends AppCompatActivity {
 
     private Button button_set;
     private TextView textView_chrono, textView_goal_result;
@@ -88,7 +88,7 @@ public class Activity3_Options extends AppCompatActivity {
                         mSoundPool.play(clickId,1,1,1,0,1);
                         goal_result = Integer.parseInt(textView_goal_result.getText().toString());
                         chronometer = Integer.parseInt(textView_chrono.getText().toString());
-                        Intent intent = new Intent(Activity3_Options.this, Activity4_Corpus.class);
+                        Intent intent = new Intent(Activity4_Options.this, Activity5_Corpus.class);
                         intent.putExtra("GOAL", goal_result);
                         intent.putExtra("CHRONO", chronometer);
                         startActivity(intent);
@@ -99,7 +99,7 @@ public class Activity3_Options extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(Activity3_Options.this, Activity1_Main.class);
+        Intent intent = new Intent(Activity4_Options.this, Activity1_Main.class);
         startActivity(intent);
     }
 }
