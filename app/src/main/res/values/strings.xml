@@ -26,6 +26,7 @@
         \n\nWhen there is less than 10 seconds left, consider about pressing
         wrong button because there might not be enough time to guess the
         next word</string>
+
     <!-- about -->
     <string name="about_title">About</string>
     <string name="about">Copyright © 2017 by Dominik Barjaktaric\n\nE-mail:
@@ -35,7 +36,6 @@
     <string name="button_set">Set</string>
     <string name="initial_value_goal_result">50</string>
     <string name="initial_value_chrono">60</string>
-    <string name="options_title">Options</string>
     <string name="goal_result_title">Goal result</string>
     <string name="chronometer_title">Chronometer</string>
 
@@ -44,7 +44,6 @@
     <string name="button_create_new">Read Corpus</string>
     <string name="lenth_txt">Terms: </string>
     <string name="default_length">0</string>
-    <string name="choose_corpus">Corpus Management</string>
 
     <!-- teams -->
     <string name="button_play">Play</string>
